@@ -1,0 +1,307 @@
+
+/* ----------------------------------- Reseteo de margin y padding ------------------- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------  estilo del nav ---------------------------*/
+.reseteoListas a:link, a:visited, a:active {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+ 
+}
+ /* ------------------------------------- Estilos label general ----------------------- */
+.body {
+    width: 100vw;
+    height: 275vh;
+    background-color:blanchedalmond ;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 0vh;
+    background-color:rgb(144, 204, 33) ;    
+    
+}
+
+main {
+    width: 100vw;
+    height: 260vh;
+    background-color:rgb(255, 255, 255) ;
+    
+}
+
+footer {
+    width: 100vw;
+    height: 25vh;
+    background-color: rgb(0, 0, 0) ;
+}
+
+/* ------------------------------------- fin --------------------------------- */
+
+#containerNav {
+    width: 100vw;
+    padding-bottom: 2vh;
+    background-color: rgba(12, 12, 12, 0.849);
+    position: fixed;
+}
+
+.containerNavegacion {
+    display: inline-block;
+    margin-left: 25vw; 
+   
+}
+
+.reseteoListas li {
+    display: inline;
+    padding-left: 2vw;
+
+}
+
+li .aDelLi {
+    color: rgb(255, 255, 255);
+}
+
+.aDelLogoNav img {
+    width: 10vw;
+    margin-left: 12vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+}
+
+.navContacto {
+    padding-left: 5vw;
+    color: rgb(255, 255, 255);
+}
+
+/* ------------------------ Estilo de section index -----------------------*/
+
+.sectionA {
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+.sectionA__div {
+    width: 100vw;
+}
+
+.sectionA__div p img{
+    width: 100vw;
+}
+
+.sectionB {
+    height: 70vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.568);
+    display: block;
+}
+
+.sectionB__div {
+    /* height: 80vh; */
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.sectionB__div__titulo {
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 30px;
+   
+}
+
+.sectionB__div2_parrafo {
+    padding: 10vh 1vw 0px 1vw;
+    color: white;
+}
+
+
+
+.sectionB__div__div2 {
+    height: 45vh;
+    margin-top: 5vh;
+    background-color: rgb(255, 255, 255);
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.sectionB__titulo {
+    margin-top: 4vh;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    color: rgb(41, 41, 41);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.sectionB__div1 {
+    height: 40vh;
+    width: 18vw;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 1vw;
+    border-style:solid;
+   
+ 
+}
+
+.sectionB__div2 {
+    height: 40vh;
+    width: 18vw;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 1vw;
+    border-style:solid;
+    
+}
+
+.sectionB__div3 {
+    height: 40vh;
+    width: 18vw;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 1vw;
+    border-style:solid;
+    
+}
+
+.sectionB__div4 {
+    height: 40vh;
+    width: 18vw;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 1vw;
+    border-style:solid;
+    
+}
+
+.sectionC {
+    height: 60vh;
+    background-color: rgb(27, 102, 172);
+}
+
+.sectionC__div {
+    height: 40vh;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 30px;
+    color: white;
+}
+
+.sectionC__div__titulo__parrafo {
+    padding: 4vh 10vh 0vh 10vh;
+}
+
+.sectionC__div2 {
+    height: 70vh;
+    background-color: rgb(116, 116, 116);
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.tituloVideoInstitucional {
+    margin-bottom: 4vh;
+}
+
+.tituloVideoInstitucional h4 {
+    font-size: 30px;
+    color: white;
+}
+
+/* ---------------------- section contacto -------------------------- */
+.sectionContacto {
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.sectionContacto__div2 {
+    margin-left: 25vw;
+    margin-right: 25vw;
+    background-color: rgb(22, 22, 24);
+    text-align: left;
+}
+
+.legend {
+    text-align: left;
+    background-color: rgb(202, 191, 191);
+    color: black;
+    padding-left: 1vw;
+}
+
+.label1 {
+    padding-top: 2vh;
+    padding-left: 1vw;
+    width: 13vw;
+    display: inline-block;
+}
+
+
+input {
+    height: 4vh;
+}
+
+.mainPagContacto {
+    height: 200vh;
+}
+
+.mainPagContacto {
+    height: 200vh;
+}
+
+/* ----------------------  Reseteo del Estilo del footer ------------------- */
+
+#containerPpalFooter {
+    height: 49%;
+}
+
+.aDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 2vh;
+    color: white;
+}
+
+.logoDelFooter img {
+    width: 10vw;
+}
+
+
+.ulDelFooter li {
+    display: inline-block;
+}
+
+
+#containerLogoFooter {
+    height: 100%;
+    margin-top: 5vh;
+    margin-left: 12vw;
+    display: inline-block;
+}
+
+#Copyright {
+    padding: 4vh 2vh 2vh 0vh;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#containerSecundarioFooter {
+    height: 49% ;
+    display: inline-block;
+    margin-left: 20vw;
+}
