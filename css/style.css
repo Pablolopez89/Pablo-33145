@@ -7,301 +7,182 @@
 }
 
 /* ------------------------------------  estilo del nav ---------------------------*/
-.reseteoListas a:link, a:visited, a:active {
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Nunito Sans', sans-serif;
- 
-}
- /* ------------------------------------- Estilos label general ----------------------- */
-.body {
-    width: 100vw;
-    height: 275vh;
-    background-color:blanchedalmond ;
-    overflow-x: hidden;
+
+#body {
+    height: 190vh;
+    
 }
 
-header {
-    width: 100vw;
-    height: 0vh;
-    background-color:rgb(144, 204, 33) ;    
-    
+#header {
+    height: 8vh;
+    background-color: #1e1f1e;
+
+}
+#ulDelNav {
+    list-style-type: none;
+    text-decoration: none; 
+
+}
+
+a:link, a:visited, a:active {
+    list-style-type: none;
+    text-decoration: none;      
 }
 
 main {
-    width: 100vw;
-    height: 260vh;
-    background-color:rgb(255, 255, 255) ;
-    
+    height: 165vh;
+  
 }
 
 footer {
-    width: 100vw;
-    height: 25vh;
-    background-color: rgb(0, 0, 0) ;
-}
-
-/* ------------------------------------- fin --------------------------------- */
-
-#containerNav {
-    width: 100vw;
-    padding-bottom: 2vh;
-    background-color: rgba(12, 12, 12, 0.849);
-    position: fixed;
-}
-
-.containerNavegacion {
-    display: inline-block;
-    margin-left: 25vw; 
-   
-}
-
-.reseteoListas li {
-    display: inline;
-    padding-left: 2vw;
-
-}
-
-li .aDelLi {
-    color: rgb(255, 255, 255);
-}
-
-.aDelLogoNav img {
-    width: 10vw;
-    margin-left: 12vw;
-    margin-right: 5vw;
-    margin-top: 2vh;
-}
-
-.navContacto {
-    padding-left: 5vw;
-    color: rgb(255, 255, 255);
-}
-
-/* ------------------------ Estilo de section index -----------------------*/
-
-.sectionA {
-    height: 80vh;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    display: block;
-}
-
-.sectionA__div {
-    width: 100vw;
-}
-
-.sectionA__div p img{
-    width: 100vw;
-}
-
-.sectionB {
-    height: 70vh;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.568);
-    display: block;
-}
-
-.sectionB__div {
-    /* height: 80vh; */
-    margin-top: 5vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-.sectionB__div__titulo {
-    font-family:'Nunito Sans', sans-serif;
-    font-size: 30px;
-   
-}
-
-.sectionB__div2_parrafo {
-    padding: 10vh 1vw 0px 1vw;
-    color: white;
-}
-
-
-
-.sectionB__div__div2 {
-    height: 45vh;
-    margin-top: 5vh;
-    background-color: rgb(255, 255, 255);
-    font-family:'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    
-}
-
-.sectionB__titulo {
-    margin-top: 4vh;
-    list-style-type: none;
-    text-decoration: none;
-    display: block;
-    color: rgb(41, 41, 41);
-    background-color: rgb(255, 255, 255);
-    
-}
-
-.sectionB__div1 {
-    height: 40vh;
-    width: 18vw;
-    background-color: rgb(0, 0, 0);
-    display: inline-block;
-    margin-left: 1vw;
-    border-style:solid;
-   
- 
-}
-
-.sectionB__div2 {
-    height: 40vh;
-    width: 18vw;
-    background-color: rgb(0, 0, 0);
-    display: inline-block;
-    margin-left: 1vw;
-    border-style:solid;
-    
-}
-
-.sectionB__div3 {
-    height: 40vh;
-    width: 18vw;
-    background-color: rgb(0, 0, 0);
-    display: inline-block;
-    margin-left: 1vw;
-    border-style:solid;
-    
-}
-
-.sectionB__div4 {
-    height: 40vh;
-    width: 18vw;
-    background-color: rgb(0, 0, 0);
-    display: inline-block;
-    margin-left: 1vw;
-    border-style:solid;
-    
-}
-
-.sectionC {
-    height: 60vh;
-    background-color: rgb(27, 102, 172);
-}
-
-.sectionC__div {
-    height: 40vh;
-    text-align: center;
-    padding-top: 5vh;
-    font-size: 30px;
-    color: white;
-}
-
-.sectionC__div__titulo__parrafo {
-    padding: 4vh 10vh 0vh 10vh;
-}
-
-.sectionC__div2 {
-    height: 70vh;
-    background-color: rgb(116, 116, 116);
-    text-align: center;
-    padding-top: 5vh;
-}
-
-.tituloVideoInstitucional {
-    margin-bottom: 4vh;
-}
-
-.tituloVideoInstitucional h4 {
-    font-size: 30px;
-    color: white;
-}
-
-/* ---------------------- section contacto -------------------------- */
-.sectionContacto {
-    height: 80vh;
-    background-color: rgb(255, 255, 255);
-    margin-top: 5vh;
-    font-family:'Nunito Sans', sans-serif;
-    font-size: 1.5rem;
-    color: white;
+    height: 17vh;
 
 }
 
-.sectionContacto__div2 {
-    margin-left: 25vw;
-    margin-right: 25vw;
-    background-color: rgb(22, 22, 24);
-    text-align: left;
+#carouselExampleSlidesOnly {
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 65vh;
 }
 
-.legend {
-    text-align: left;
-    background-color: rgb(202, 191, 191);
-    color: black;
-    padding-left: 1vw;
-}
-
-.label1 {
+#containerArea {
+    height: 17vh;
     padding-top: 2vh;
-    padding-left: 1vw;
-    width: 13vw;
+
+}
+
+#sectionDos {
+    height: 20vh;
+}
+
+h5 {
+    padding-top: 2vh;
+}
+/* seccion cumpleaños */
+.modcumple{
+    background: #f2f2f3;
+    padding: 27px 20px 31px;
+    margin: 0 0 30px;
+    outline: none;
+  }
+  .mod__title {
+      display: block;
+      font-size: 18px;
+      color: #000000;
+      margin-bottom: 0;
+      margin-right: auto;
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 700;
+      padding: 12px 0;
+      border-bottom: 2px solid #f1f1f1;
+      padding-left: 15px;
+  }
+  .mod__title:after {
+    background: rgb(0, 0, 0);
+    display: block;
+    height: 3px;
+    margin-top: 9px;
+    width: 33px;
+    font: bold;
+  }
+  .modcumple__content{
+    margin: 21px 0 0;
+  }
+  .modcumple .modcumple-container{
+    margin: 0px -15px 0px 0;
+    padding-right: 15px;
+    height: 310px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .modcumple__ul{
+    height: 189px;
+    margin: 0px;
+  }
+  .modcumple__li{
+    vertical-align: middle;
+    height: 66px;
+    padding:0 0 0;
+  }
+  .modcumple__li img{
     display: inline-block;
+    vertical-align: middle;
+    border-radius: 125px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 51px;
+    height: 51px;
+  }
+  img{
+    border:0;
+    height: auto;
+    max-width: 100%;
+  }
+  .modcumple__data{
+    margin-left: 60px;
+    display: block;
+  }
+  .modcumple__name{
+    line-height: 20px;
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+  }
+  .modcumple__btn{
+    position: relative;
+    color: #429ab4;
+    padding: 0 0 20px;
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+  .modcumple__btn--saludo{
+    padding-left: 22px;
+    margin-left: 5px;
+  }
+
+  .bi-microsoft-teams{
+    font-size: 20px;
+    padding: 0.2em;
+  }
+  .bi-envelope{
+    font-size: 20px;
+    padding: 0.2em;
+  }
+
+  /* Footer */
+
+  #footer{
+    background-color: #1e1f1e;
+  }
+
+  #divFooter {
+    height: 17vh;
+  }
+
+  #imgNav {
+    max-width: 50%;
+  }
+
+  /* Estilo de pagina de contacto */
+
+#imagenContacto {
+  margin-left: -12px;
+  margin-right: -12px;
+
 }
 
 
-input {
-    height: 4vh;
-}
-
-.mainPagContacto {
-    height: 200vh;
-}
-
-.mainPagContacto {
-    height: 200vh;
-}
-
-/* ----------------------  Reseteo del Estilo del footer ------------------- */
-
-#containerPpalFooter {
-    height: 49%;
-}
-
-.aDelFooter {
-    list-style-type: none;
-    text-decoration: none;
-    font-family: 'Nunito Sans', sans-serif;
-    padding: 2vh;
-    color: white;
-}
-
-.logoDelFooter img {
-    width: 10vw;
-}
+   
 
 
-.ulDelFooter li {
-    display: inline-block;
-}
 
 
-#containerLogoFooter {
-    height: 100%;
-    margin-top: 5vh;
-    margin-left: 12vw;
-    display: inline-block;
-}
 
-#Copyright {
-    padding: 4vh 2vh 2vh 0vh;
-    color: white;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-#containerSecundarioFooter {
-    height: 49% ;
-    display: inline-block;
-    margin-left: 20vw;
-}

@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
+        <!-- Instalacion de Boostrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+        crossorigin="anonymous">
+
     <!-- Style CSS -->
      <link rel="stylesheet" href="./css/style.css">
 
@@ -21,101 +26,111 @@
 
 </head>
 <body class="bodyPagContacto">
-    <header>
-        <nav id="containerNav">
-            <a class="aDelLogoNav" href="./index.html">
-                <img src="./assets/images/clarossff2.png" alt="Logo de Claro Seguridad Fisica">
-            </a>
-            <div class="containerNavegacion">
-                <ul class="reseteoListas">
-                    <li> <a class="aDelLi" href="socollerossitios.html">SOC Olleros Sitios</a></li>
-                    <li> <a class="aDelLi" href="socollerosdc.html">SOC Olleros DC</a></li>
-                    <li> <a class="aDelLi" href="socmayo.html">SOC Mayo</a></li>
-                    <li> <a class="aDelLi" href="socsabattini.html">SOC Sabattini</a></li>
-                    <li> <a class="navContacto" href="contacto.html">Contacto</a></li>
-                </ul>
+    <header class="container-fluid">
+        <div id="header" class="row">
+            <div class="col-2">
             </div>
-                         
-        </nav>
+            <div class="col-2" >
+                <a href="./index.html"><img id="" class="img-fluid" src="./assets/images/clarossff2.png" alt="logo"></a>
+            </div>
+            <div class="col-1">
+
+            </div>
+            <nav class="col-5">
+                    <ul id="ulDelNav" class="d-flex justify-content-between align-items-center h-100">
+                        <li> <a class="text-white" href="socollerosdc.html">SOC Olleros DC</a></li>
+                        <li> <a class="text-white" href="socollerossitios.html">SOC Olleros Sitios</a></li>
+                        <li> <a class="text-white" href="socmayo.html">SOC Mayo</a></li>
+                        <li> <a class="text-white" href="socsabattini.html">SOC Sabattini</a></li>
+                        <li> <a class="text-white" href="contacto.html">Contacto</a></li>
+                    </ul>    
+            </nav>
+            <div class="col-2">
     </header>
-    <Main class="mainPagContacto">
-        <section class="sectionA">
-            <div id="sectionA__div">
+    <main class="container-fluid">
+        <section class="row">
+            <div id="imagenContacto" class="col-12">
                 <p><img src="./assets/images/Contacto.png" alt="imagen de Seguridad"></p>
             </div>
         </section>
 
-        <section class="sectionB">
-            <div class="sectionB__div">
-                <div class="sectionB__div__titulo">
-                    <h1 class="tituloIndex">Formulario de contacto</h1>
-                    <br>
-                    <p class="parrafoIndex">Si tenes alguna duda o consulta, completa el siguiente formulario. <br>
-                        Nos comunicaremos a la brevedad.
-                    </p>
+        <section class="container">
+            <form class="row">
+                <div class="col-12 text-center">
+                    <h3>
+                        Contáctanos
+                    </h3>
+                    <hr>
                 </div>
-                <div class="sectionContacto">
-                            <div class="sectionContacto__div2"> 
-                                <form action="" method="post" enctype="text/plain">
-                                    <legend class="legend">DATOS PERSONALES</legend>
-                                    <div>
-                                        <label class="label1" for="nombre">Nombre</label>
-                                        <input type="text" id="nombre">
-                                    </div>
-                                    <div>
-                                        <label class="label1" for="segundoNombre">Segundo Nombre</label>
-                                        <input type="text" id="segundoNombre">
-                                    </div>
-                                    <div>
-                                        <label class="label1" for="apellido">Apellido</label>
-                                        <input type="text" id="apellido">
-                                    </div>
-                                    <div>
-                                        <label class="label1" for="email">Email</label>
-                                        <input type="text" id="email">
-                                    </div>
-                                    <br>
-                                    <legend class="legend">DATOS LABORALES</legend>
-                                    <div>
-                                        <p class="label1">Edificio Actual</p>
-                                        <label for=""><input type="radio" name="edificio actual" value="Olleros">Soc Olleros</label>
-                                        <label for=""><input type="radio" name="edificio actual" value="Mayo">Soc Mayo</label>
-                                        <label for=""><input type="radio" name="edificio actual" value="Sabattini">Soc Sabattini</label>
-                                    </div>
-                                    <div class="label1">
-                                        <p class="label1">Comentario:</p>
-                                        <textarea name="msj" id="msj" cols="60" rows="10" placeholder="Ingrese su consulta"></textarea>
-                                        
-                                    </div>
-                                </form>
-                            </div>
+                <div class="col-3">
 
-                    
                 </div>
-            </div>
+                <div class="col-3 mt-3">
+                    <label for="nombreInput" class="form-label"> Nombre</label>
+                    <input type="text" class="form-control" id="nombreInput" placeholder="Escribe tu nombre">
+                </div>
+                <div class="col-3 mt-3">
+                    <label for="apellidoInput" class="form-label"> Apellido</label>
+                    <input type="text" class="form-control" id="apellidoInput" placeholder="Escribe tu apellido">
+                </div>
+                <div class="col-3">
+
+                </div>
+                <div class="col-3">
+
+                </div>
+                <div class="col-6 mt-3">
+                    <label for="emailInput" class="form-label"> Email</label>
+                    <input type="text" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                </div>
+                <div class="col-3">
+
+                </div>
+                <div class="col-3">
+
+                </div>
+                <div class="col-6 mt-3">
+                    <label for="comentId" class="form-label"> Comentarios:</label>
+                    <textarea name="text" id="comentId" class="form-control" placeholder="Escribe tu comentario:"></textarea>
+
+                </div>
+                <div class="text-center mt-3">
+                    <button class="btn btn-dark"> Enviar</button>
+                </div>
+            </form>
+            
         </section>
     </Main>
-    <footer>   
-        <div id="containerPpalFooter">
-            <div id="containerLogoFooter">
-                <a class="logoDelFooter" href="index.html"><img src="./assets/images/clarossff2.png" alt="logo de seguridad claro"></a>
-                <div>
-                    <p id="Copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Sitio creado por Pablo Arnaldo Lopez </p>
-                </div>
-            </div>          
-            <div id="containerSecundarioFooter">
-                <ul class="ulDelFooter">
-                    <li><a class="aDelFooter" href="index.html">Inicio</a></li>
-                    <li><a class="aDelFooter" href="#">XXXXXXXX</a></li>
-                    <li><a class="aDelFooter" href="#">XXXXXXXX</a></li>
-                    <li><a class="aDelFooter" href="./contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
+    <footer id="footer" class="container-fluid">
+        <div id="divFooter"  class="row">
+            <div class="col-2">
 
+            </div>
+            <div class="col-4">
+                <a href="./index.html"><img id="imgNav" src="./assets/images/clarossff2.png" alt="logo"></a>
+                <p class="text-white">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | <br>
+                     Sitio creado por Pablo Arnaldo Lopez </p>
                 
+            </div>
+            <div class="col-4">
+                <ul id="ulDelNav" class="d-flex justify-content-between align-items-center h-100">
+                    <li> <a class="text-white" href="#">Info de interes</a></li>
+                    <li> <a class="text-white" href="#">Archivos</a></li>
+                    <li> <a class="text-white" href="contacto.html">Contacto</a></li>
+                </ul>              
+
+            </div>
+            <div class="col-2">
+               
+            </div>
+
+        </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+    crossorigin="anonymous">
+    </script>
     
 </body>
 </html>
