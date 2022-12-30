@@ -59,6 +59,7 @@ footer {
 h5 {
     padding-top: 2vh;
 }
+
 /* seccion cumpleaños */
 .modcumple{
     background: #f2f2f3;
@@ -179,6 +180,24 @@ h5 {
 
 }
 
+@media (max-witdth: 1200px) {
+  
+}
+
+@media (max-witdth: 1024px) {
+}
+
+@media (max-witdth: 768px) {
+}
+
+@media (max-witdth: 600px) {
+}
+
+@media (max-witdth: 480px) {
+}
+
+@media (max-witdth: 320px) {
+}
 
    
 
