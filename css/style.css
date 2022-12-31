@@ -18,6 +18,9 @@
     background-color: #1e1f1e;
 
 }
+
+
+
 #ulDelNav {
     list-style-type: none;
     text-decoration: none; 
@@ -181,10 +184,11 @@ h5 {
 }
 
 @media (max-witdth: 1200px) {
-  
+
 }
 
 @media (max-witdth: 1024px) {
+
 }
 
 @media (max-witdth: 768px) {
