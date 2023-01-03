@@ -31,25 +31,40 @@
 
 </head> 
 <body id="body">
-    <header class="container-fluid">
-        <div id="header" class="row">
-            <div class="col-2 ">
+    <header id="header" class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img class="navLogo" src="./assets/images/clarossff2.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="./pages/socollerosdc.html">SOC Olleros DC</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/socollerossitios.html">SOC Olleros Sitios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  text-white" href="./pages/socmayo.html" >SOC Mayo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/socsabattini.html">SOC Sabattini</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+              </div>
             </div>
-            <div class="col-2" >
-                <a href="./index.html"><img id="imgHeader" class="img-fluid" src="./assets/images/clarossff2.png" alt="logo"></a>
-            </div>
-            <div class="col-1 "></div>
-            <nav class="col-6 ">
-                    <ul id="ulDelNav" class="d-flex justify-content-between align-items-center h-100">
-                        <li> <a class="text-white" href="socollerosdc.html">SOC Olleros DC</a></li>
-                        <li> <a class="text-white" href="socollerossitios.html">SOC Olleros Sitios</a></li>
-                        <li> <a class="text-white" href="socmayo.html">SOC Mayo</a></li>
-                        <li> <a class="text-white" href="socsabattini.html">SOC Sabattini</a></li>
-                        <li> <a class="text-white" href="contacto.html">Contacto</a></li>
-                    </ul>    
-            </nav>
-            <div class="col-1  "></div>
-        </div>
+          </nav>
     </header>
     <main class="container-fluid">
         <div class="row">
@@ -90,7 +105,7 @@
                     <div class="text-center">
                       <h5 class="card-title">SOC Olleros DC</h5>
                       <p class="card-text">Se encarga de los sitios con SSFF.</p>
-                      <br>
+                      
                       <a href="./socollerosdc.html" class="btn btn-light mb-3">Ingresar</a>
                     </div>
                 </div>
@@ -107,7 +122,6 @@
                     <div class="text-center">
                       <h5 class="card-title">SOC Mayo</h5>
                       <p class="card-text">Se encarga de los CAC de AMBA.</p>
-                      <br>
                       <a href="./socollerosdc.html" class="btn btn-light mb-3">Ingresar</a>
                     </div>
                 </div>
@@ -129,7 +143,7 @@
 
             </div>
             <div class="col-4">
-                <a href="./index.html"><img id="imgNav" src="./assets/images/clarossff2.png" alt="logo"></a>
+                <a href="./index.html"><img id="imgFooter" src="./assets/images/clarossff2.png" alt="logo"></a>
                 <p class="text-white">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | <br>
                      Sitio creado por Pablo Arnaldo Lopez </p>
                 
@@ -138,7 +152,7 @@
                 <ul id="ulDelNav" class="d-flex justify-content-between align-items-center h-100">
                     <li> <a class="text-white" href="#">Info de interes</a></li>
                     <li> <a class="text-white" href="#">Archivos</a></li>
-                    <li> <a class="text-white" href="contacto.html">Contacto</a></li>
+                    <li> <a class="text-white" href="./pages/contacto.html">Contacto</a></li>
                 </ul>              
 
             </div>
