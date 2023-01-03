@@ -10,14 +10,9 @@
 
 #body {
     height: 190vh;
+    overflow-x: hidden;
     
 }
-
-/* #header {
-    height: 8vh;
-    background-color: #1e1f1e;
-
-} */
 
 #header{
   padding-left: 0px;
@@ -30,6 +25,12 @@
 
 }
 
+#ulDelNav li a {
+  padding-left: 2px;
+  padding-right: 2px;
+  
+}
+
 a:link, a:visited, a:active {
     list-style-type: none;
     text-decoration: none;      
@@ -40,14 +41,13 @@ main {
   
 }
 
-
 #carouselExampleSlidesOnly{
     margin-left: -12px;
     margin-right: -12px;
 }
 
 #containerArea {
-    height: 21vh;
+    height: 23vh;
     padding-top: 2vh;
 
 }
@@ -60,118 +60,11 @@ h5 {
     padding-top: 2vh;
 }
 
-/* seccion cumpleaños */
-.modcumple{
-    background: #f2f2f3;
-    padding: 27px 20px 31px;
-    margin: 0 0 30px;
-    outline: none;
-  }
-  .mod__title {
-      display: block;
-      font-size: 18px;
-      color: #000000;
-      margin-bottom: 0;
-      margin-right: auto;
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 700;
-      padding: 12px 0;
-      border-bottom: 2px solid #f1f1f1;
-      padding-left: 15px;
-  }
-  .mod__title:after {
-    background: rgb(0, 0, 0);
-    display: block;
-    height: 3px;
-    margin-top: 9px;
-    width: 33px;
-    font: bold;
-  }
-  .modcumple__content{
-    margin: 21px 0 0;
-  }
-  .modcumple .modcumple-container{
-    margin: 0px -15px 0px 0;
-    padding-right: 15px;
-    height: 310px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-  .modcumple__ul{
-    height: 189px;
-    margin: 0px;
-  }
-  .modcumple__li{
-    vertical-align: middle;
-    height: 66px;
-    padding:0 0 0;
-  }
-  .modcumple__li img{
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 125px;
-    overflow: hidden;
-    position: relative;
-    width: 51px;
-    height: 51px;
-  }
-  img{
-    border:0;
-    height: auto;
-    max-width: 100%;
-  }
-  .modcumple__data{
-    margin-left: 60px;
-    display: block;
-  }
-  .modcumple__name{
-    line-height: 20px;
-    padding-right: 5px;
-    font-size: 15px;
-    font-weight: 400;
-    padding-top: 6px;
-    padding-bottom: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    display: block;
-    text-overflow: ellipsis;
-  }
-  .modcumple__btn{
-    position: relative;
-    color: #429ab4;
-    padding: 0 0 20px;
-    text-transform: capitalize;
-    font-size: 12px;
-  }
-  .modcumple__btn--saludo{
-    padding-left: 22px;
-    margin-left: 5px;
-  }
-
-  .bi-microsoft-teams{
-    font-size: 20px;
-    padding: 0.2em;
-  }
-  .bi-envelope{
-    font-size: 20px;
-    padding: 0.2em;
-  }
-
-  /* Footer */
-
-  footer {
-    height: 20vh;
-    width: 100%;
-  
-  }
   #footer{
     background-color: #1e1f1e;
-
+    width: 100%;
   }
 
-  #divFooter {
-    height: 17vh;
-  }
 
   #imgFooter {
     width: 200px;
@@ -182,33 +75,47 @@ h5 {
     padding: 0%;
   }
 
-  /* Estilo de pagina de contacto */
+  #imgContacto {
+    margin-left: -12px;
+  }
 
-/* #imagenContacto {
-  margin-left: -12px;
-  margin-right: -12px;
 
-} */
 
-@media (max-witdth: 1200px) {
+@media (max-width: 1200px) {
 
 }
-
-@media (max-witdth: 1024px) {
-
+@media (max-width: 1024px) {
+  
 
 }
+@media (max-width: 768px) {
+  main {
+    height: 270vh;
+}
+  
+}
+@media (max-width: 600px) {
+  main {
+    height: 250vh;
+}
+#containerArea {
+  height: 26vh;
+  padding-top: 2vh;
 
-@media (max-witdth: 768px) {
+}
 }
 
-@media (max-witdth: 600px) {
+@media (max-width: 480px) {
+  main {
+    height: 250vh;
+}
+ 
 }
 
-@media (max-witdth: 480px) {
+@media (max-width: 320px) {
+  main {
+    height: 280vh;
 }
-
-@media (max-witdth: 320px) {
 }
 
    

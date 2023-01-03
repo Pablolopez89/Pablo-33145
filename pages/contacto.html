@@ -16,54 +16,54 @@
         crossorigin="anonymous">
 
     <!-- Style CSS -->
-     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="../css/style.css">
 
     <!-- Titulo de pestaña  -->
     <title>Seguridad Fisica Claro</title>
 
     <!-- Logo de claro en la pestaña de la web  -->
-    <link rel="icon" href="./assets/images/logo-claro.png">
+    <link rel="icon" href="../assets/images/logo-claro.png">
 
 </head>
-<body class="bodyPagContacto">
-    <header id="header" class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">
-                <img class="navLogo" src="../assets/images/clarossff2.png" alt="logo">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="./pages/socollerosdc.html">SOC Olleros DC</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./pages/socollerossitios.html">SOC Olleros Sitios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link  text-white" href="./pages/socmayo.html" >SOC Mayo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./pages/socsabattini.html">SOC Sabattini</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-light" type="submit">Buscar</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-    </header>
+<body id="body">
+  <header id="header" class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="navLogo" src="../assets/images/clarossff2.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./pages/socollerosdc.html">SOC Olleros DC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/socollerossitios.html">SOC Olleros Sitios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/socmayo.html" >SOC Mayo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/socsabattini.html">SOC Sabattini</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</header>
     <main class="container-fluid">
         <section class="row">
-            <div id="imagenContacto" class="col-12">
+            <div id="imgContacto" class=" d-block w-100 col-12">
                 <p><img src="../assets/images/Contacto.png" alt="imagen de Seguridad"></p>
             </div>
         </section>
@@ -115,30 +115,24 @@
             
         </section>
     </Main>
-    <footer id="footer" class="container-fluid">
+    <footer id="footer">
+      <div class="container">
         <div id="divFooter"  class="row">
-            <div class="col-2">
-
-            </div>
-            <div class="col-4">
-                <a href="./index.html"><img id="imgNav" src="./assets/images/clarossff2.png" alt="logo"></a>
-                <p class="text-white">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | <br>
-                     Sitio creado por Pablo Arnaldo Lopez </p>
-                
-            </div>
-            <div class="col-4">
-                <ul id="ulDelNav" class="d-flex justify-content-between align-items-center h-100">
-                    <li> <a class="text-white" href="#">Info de interes</a></li>
-                    <li> <a class="text-white" href="#">Archivos</a></li>
-                    <li> <a class="text-white" href="contacto.html">Contacto</a></li>
-                </ul>              
-
-            </div>
-            <div class="col-2">
-               
-            </div>
-
+          <div class="col-6">
+              <a href="../index.html"><img id="imgFooter" src="../assets/images/clarossff2.png" alt="logo"></a>
+              <p class="text-white">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | <br>
+                   Sitio creado por Pablo Arnaldo Lopez </p>     
+          </div>
+          <div class="col-6">
+              <ul id="ulDelNav" class="d-flex justify-content-between align-items-center h-100">
+                  <li> <a class="text-white" href="#">Info de interes</a></li>
+                  <li> <a class="text-white" href="#">Archivos</a></li>
+                  <li> <a class="text-white" href="contacto.html">Contacto</a></li>
+              </ul>              
+          </div>
         </div>
+      </div>
+       
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
