@@ -9,9 +9,7 @@
 /* ------------------------------------  estilo del nav ---------------------------*/
 
 #body {
-    height: 190vh;
-    overflow-x: hidden;
-    
+    height: 190vh;    
 }
 
 #header{
@@ -76,7 +74,9 @@ h5 {
   }
 
   #imgContacto {
-    margin-left: -12px;
+     margin-left: -12px;
+     margin-right: -12px;
+    
   }
 
 
