@@ -107,14 +107,14 @@ h5 {
 
 @media (max-width: 480px) {
   main {
-    height: 250vh;
+    height: 520vh;
 }
  
 }
 
 @media (max-width: 320px) {
   main {
-    height: 280vh;
+    height: 520vh;
 }
 }
 
