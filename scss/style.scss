@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:active {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#body {
+    height: 190vh;
+    #header { 
+        padding-left: 0px;
+        padding-right: 0px;
+        nav {
+            div {
+                a {
+                    .navLogo {
+                        width: 200px;
+                        padding: 0px;
+
+                    }
+                }
+            }
+        }
+    }
+    main {
+        height: 170vh;
+        div {
+            section {
+                padding-left: 0px;
+                padding-right: 0px;
+                #carouselExampleSlidesOnly {
+                    div {
+
+                        div {
+                            img {
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #containerArea {
+            height: 23vh;
+            padding-top: 2vh;
+        }
+        h5 {
+            padding-top: 2vh;
+        }
+    }
+    #footer {
+        background-color: #1e1f1e;
+        width: 100%;
+        div {
+            #divFooter {
+                div {
+                    a {
+                        #imgFooter {
+                            width: 200px;
+                        }
+                    }
+                    p {
+
+                    }       
+
+            } 
+            }
+                div {
+                    #ulDelFooter {
+                        list-style-type: none;
+                        text-decoration: none;
+                        li {
+                            a {
+                                
+
+                            }
+
+                        }
+
+                    }
+                }
+
+        }
+
+    }
+    }

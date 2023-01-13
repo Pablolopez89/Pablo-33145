@@ -1,126 +1,35 @@
-
-/* ----------------------------------- Reseteo de margin y padding ------------------- */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* ------------------------------------  estilo del nav ---------------------------*/
-
-#body {
-    height: 190vh;    
-}
-
-#header{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-#ulDelNav {
-    list-style-type: none;
-    text-decoration: none; 
-
-}
-
-#ulDelNav li a {
-  padding-left: 2px;
-  padding-right: 2px;
-  
-}
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
 a:link, a:visited, a:active {
-    list-style-type: none;
-    text-decoration: none;      
-}
+  list-style-type: none;
+  text-decoration: none; }
 
-main {
-    height: 170vh;
-  
-}
-
-#carouselExampleSlidesOnly{
-    margin-left: -12px;
-    margin-right: -12px;
-}
-
-#containerArea {
-    height: 23vh;
-    padding-top: 2vh;
-
-}
-
-#sectionDos {
-    height: 20vh;
-}
-
-h5 {
-    padding-top: 2vh;
-}
-
-  #footer{
+#body {
+  height: 190vh; }
+  #body #header {
+    padding-left: 0px;
+    padding-right: 0px; }
+    #body #header nav div a .navLogo {
+      width: 200px;
+      padding: 0px; }
+  #body main {
+    height: 170vh; }
+    #body main div section {
+      padding-left: 0px;
+      padding-right: 0px; }
+    #body main #containerArea {
+      height: 23vh;
+      padding-top: 2vh; }
+    #body main h5 {
+      padding-top: 2vh; }
+  #body #footer {
     background-color: #1e1f1e;
-    width: 100%;
-  }
-
-
-  #imgFooter {
-    width: 200px;
-  }
-
-  .navLogo {
-    width: 200px;
-    padding: 0%;
-  }
-
-  #imgContacto {
-     margin-left: -12px;
-     margin-right: -12px;
-    
-  }
-
-
-
-@media (max-width: 1200px) {
-
-}
-@media (max-width: 1024px) {
-  
-
-}
-@media (max-width: 768px) {
-  main {
-    height: 270vh;
-}
-  
-}
-@media (max-width: 600px) {
-  main {
-    height: 520vh;
-}
-#containerArea {
-  height: 26vh;
-  padding-top: 2vh;
-
-}
-}
-
-@media (max-width: 480px) {
-  main {
-    height: 520vh;
-}
- 
-}
-
-@media (max-width: 320px) {
-  main {
-    height: 520vh;
-}
-}
-
-   
-
-
-
-
-
+    width: 100%; }
+    #body #footer div #divFooter div a #imgFooter {
+      width: 200px; }
+    #body #footer div div #ulDelFooter {
+      list-style-type: none;
+      text-decoration: none; }
