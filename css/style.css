@@ -8,10 +8,8 @@ a:link, a:visited, a:active {
   text-decoration: none; }
 
 #body {
-  height: 250vh;
-  position: relative; }
+  height: 250vh; }
   #body #header {
-    height: 12vh;
     padding-left: 0px;
     padding-right: 0px; }
     #body #header nav div a .navLogo {
@@ -28,7 +26,6 @@ a:link, a:visited, a:active {
     #body main h5 {
       padding-top: 2vh; }
   #body #footer {
-    height: 20vh;
     background-color: #1e1f1e;
     width: 100%; }
     #body #footer div #divFooter div a #imgFooter {
