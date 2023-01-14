@@ -1,5 +1,4 @@
 @import "../scss/_contacto.scss";
-@import "../scss/_mediaquery_index.scss";
 @import "../scss/_variables.scss";
 
 *{
@@ -77,6 +76,7 @@ a:link, a:visited, a:active {
                     #ulDelFooter {
                         list-style-type: none;
                         text-decoration: none;
+                        margin-bottom: 0px;
                         li {
                             a {
                                 
@@ -93,3 +93,23 @@ a:link, a:visited, a:active {
     }
     }
 
+    @media (max-width: 1200px) {
+
+    }
+    @media (max-width: 1024px) {
+      
+    }
+    @media (max-width: 768px) {
+    
+    }
+    @media (max-width: 600px) {
+    
+    }
+    
+    @media (max-width: 480px) {
+    
+    }
+    
+    @media (max-width: 320px) {
+    
+    }

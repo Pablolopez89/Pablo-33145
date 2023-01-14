@@ -32,4 +32,5 @@ a:link, a:visited, a:active {
       width: 200px; }
     #body #footer div div #ulDelFooter {
       list-style-type: none;
-      text-decoration: none; }
+      text-decoration: none;
+      margin-bottom: 0px; }
