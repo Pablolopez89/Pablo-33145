@@ -1,4 +1,6 @@
-@import "_mediaquery_index";
+@import "../scss/_contacto.scss";
+@import "../scss/_mediaquery_index.scss";
+@import "../scss/_variables.scss";
 
 *{
     padding: 0;
@@ -12,8 +14,10 @@ a:link, a:visited, a:active {
 }
 
 #body {
-    height: 190vh;
-    #header { 
+    height: 250vh;
+    position: relative;
+    #header {
+        height: 12vh;
         padding-left: 0px;
         padding-right: 0px;
         nav {
@@ -29,7 +33,7 @@ a:link, a:visited, a:active {
         }
     }
     main {
-        height: 170vh;
+        height: 219vh;
         div {
             section {
                 padding-left: 0px;
@@ -55,6 +59,7 @@ a:link, a:visited, a:active {
         }
     }
     #footer {
+        height: 20vh;
         background-color: #1e1f1e;
         width: 100%;
         div {

@@ -1,22 +1,3 @@
-@media (max-width: 768px) {
-  main {
-    height: 3000vh; } }
-
-@media (max-width: 600px) {
-  main {
-    height: 250vh; }
-  #containerArea {
-    height: 26vh;
-    padding-top: 2vh; } }
-
-@media (max-width: 480px) {
-  main {
-    height: 250vh; } }
-
-@media (max-width: 320px) {
-  main {
-    height: 280vh; } }
-
 * {
   padding: 0;
   margin: 0;
@@ -27,15 +8,17 @@ a:link, a:visited, a:active {
   text-decoration: none; }
 
 #body {
-  height: 190vh; }
+  height: 250vh;
+  position: relative; }
   #body #header {
+    height: 12vh;
     padding-left: 0px;
     padding-right: 0px; }
     #body #header nav div a .navLogo {
       width: 200px;
       padding: 0px; }
   #body main {
-    height: 170vh; }
+    height: 219vh; }
     #body main div section {
       padding-left: 0px;
       padding-right: 0px; }
@@ -45,6 +28,7 @@ a:link, a:visited, a:active {
     #body main h5 {
       padding-top: 2vh; }
   #body #footer {
+    height: 20vh;
     background-color: #1e1f1e;
     width: 100%; }
     #body #footer div #divFooter div a #imgFooter {
