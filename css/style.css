@@ -1,3 +1,33 @@
+#bodyContacto {
+  height: 180vh; }
+  #bodyContacto #header {
+    padding-left: 0px;
+    padding-right: 0px; }
+    #bodyContacto #header nav div a .navLogo {
+      width: 200px;
+      padding: 0px; }
+  #bodyContacto #mainContacto {
+    height: 170vh; }
+    #bodyContacto #mainContacto div section {
+      padding-left: 0px;
+      padding-right: 0px; }
+    #bodyContacto #mainContacto #containerArea {
+      height: 23vh;
+      padding-top: 2vh; }
+    #bodyContacto #mainContacto h5 {
+      padding-top: 2vh; }
+  #bodyContacto #footerContacto {
+    background-color: #1e1f1e;
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 0%; }
+    #bodyContacto #footerContacto div #divFooterContacto div a #imgFooter {
+      width: 200px; }
+    #bodyContacto #footerContacto div div #ulDelFooter {
+      list-style-type: none;
+      text-decoration: none;
+      margin-bottom: 0px; }
+
 * {
   padding: 0;
   margin: 0;
