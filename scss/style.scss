@@ -1,5 +1,7 @@
 @import "../scss/_contacto.scss";
-@import "../scss/_variables.scss";
+@import "../scss/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 *{
     padding: 0;
@@ -13,7 +15,7 @@ a:link, a:visited, a:active {
 }
 
 #body {
-    height: 255vh;
+    height: 260vh;
     #header {
         padding-left: 0px;
         padding-right: 0px;
@@ -30,7 +32,7 @@ a:link, a:visited, a:active {
         }
     }
     main {
-        height: 230vh;
+        height: 235vh;
         div {
             section {
                 padding-left: 0px;
