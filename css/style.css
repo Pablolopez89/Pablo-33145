@@ -9080,7 +9080,7 @@ a:link, a:visited, a:active {
   text-decoration: none; }
 
 #body {
-  height: 260vh; }
+  height: 270vh; }
   #body #header {
     padding-left: 0px;
     padding-right: 0px; }
@@ -9088,7 +9088,7 @@ a:link, a:visited, a:active {
       width: 200px;
       padding: 0px; }
   #body main {
-    height: 235vh; }
+    height: 245vh; }
     #body main div section {
       padding-left: 0px;
       padding-right: 0px; }
