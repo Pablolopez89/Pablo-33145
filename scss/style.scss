@@ -1,6 +1,7 @@
+@import "./variables";
 @import "../scss/_contacto.scss";
-@import "../scss/variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "./mixin";
 
 
 *{
@@ -10,8 +11,7 @@
 }
 
 a:link, a:visited, a:active {
-    list-style-type: none;
-    text-decoration: none;
+    @include reseteo-lista;
 }
 
 #body {
@@ -58,7 +58,7 @@ a:link, a:visited, a:active {
         }
     }
     #footer {
-        background-color: #1e1f1e;
+        background-color: $colorgeneral;
         width: 100%;
         div {
             #divFooter {
@@ -76,8 +76,7 @@ a:link, a:visited, a:active {
             }
                 div {
                     #ulDelFooter {
-                        list-style-type: none;
-                        text-decoration: none;
+                        @include reseteo-lista;
                         margin-bottom: 0px;
                         li {
                             a {

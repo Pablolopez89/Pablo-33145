@@ -1,6 +1,8 @@
+@import "./variables";
+@import "./mixin";
 
     #bodyContacto {
-        height: 180vh;
+        height: 170vh;
         #header {
             padding-left: 0px;
             padding-right: 0px;
@@ -17,7 +19,7 @@
             }
         }
         #mainContacto {
-            height: 160vh;
+            height: 150vh;
             div {
                 section {
                     padding-left: 0px;
@@ -43,7 +45,7 @@
             }
         }
         #footerContacto {
-            background-color: #1e1f1e;
+            background-color: $colorgeneral;
             width: 100%;
             margin-bottom: 0%;
             div {
@@ -62,8 +64,7 @@
                 }
                     div {
                         #ulDelFooter {
-                            list-style-type: none;
-                            text-decoration: none;
+                            @include reseteo-lista;
                             margin-bottom: 0px;
                             li {
                                 a {
