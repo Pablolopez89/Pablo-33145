@@ -191,9 +191,167 @@ a:link, a:visited, a:active {
     }
     
     @media (max-width: 480px) {
+        #body {
+            height: 270vh;
+            #header {
+                padding-left: 0px;
+                padding-right: 0px;
+                nav {
+                    div {
+                        a {
+                            .navLogo {
+                                width: 200px;
+                                padding: 0px;
+        
+                            }
+                        }
+                    }
+                }
+            }
+            main {
+                height: 245vh;
+                div {
+                    section {
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        #carouselExampleSlidesOnly {
+                            div {
+        
+                                div {
+                                    img {
+        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #containerArea {
+                    height: 23vh;
+                    padding-top: 2vh;
+                }
+                h5 {
+                    padding-top: 2vh;
+                }
+            }
+            #footer {
+                background-color: $colorgeneral;
+                width: 100%;
+                div {
+                    #divFooter {
+                        div {
+                            a {
+                                #imgFooter {
+                                    width: 200px;
+                                }
+                            }
+                            p {
+        
+                            }       
+        
+                    } 
+                    }
+                        div {
+                            #ulDelFooter {
+                                @include reseteo-lista;
+                                margin-bottom: 0px;
+                                li {
+                                    a {
+                                        
+        
+                                    }
+        
+                                }
+        
+                            }
+                        }
+        
+                }
+        
+            }
+            }
     
     }
     
     @media (max-width: 320px) {
+        #body {
+            height: 270vh;
+            #header {
+                padding-left: 0px;
+                padding-right: 0px;
+                nav {
+                    div {
+                        a {
+                            .navLogo {
+                                width: 200px;
+                                padding: 0px;
+        
+                            }
+                        }
+                    }
+                }
+            }
+            main {
+                height: 245vh;
+                div {
+                    section {
+                        padding-left: 0px;
+                        padding-right: 0px;
+                        #carouselExampleSlidesOnly {
+                            div {
+        
+                                div {
+                                    img {
+        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #containerArea {
+                    height: 23vh;
+                    padding-top: 2vh;
+                }
+                h5 {
+                    padding-top: 2vh;
+                }
+            }
+            #footer {
+                background-color: $colorgeneral;
+                width: 100%;
+                div {
+                    #divFooter {
+                        div {
+                            a {
+                                #imgFooter {
+                                    width: 200px;
+                                }
+                            }
+                            p {
+        
+                            }       
+        
+                    } 
+                    }
+                        div {
+                            #ulDelFooter {
+                                @include reseteo-lista;
+                                margin-bottom: 0px;
+                                li {
+                                    a {
+                                        
+        
+                                    }
+        
+                                }
+        
+                            }
+                        }
+        
+                }
+        
+            }
+            }
     
     }
