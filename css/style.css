@@ -9098,6 +9098,35 @@ textarea.form-control-lg {
       text-decoration: none;
       margin-bottom: 0px; }
 
+@media (max-width: 600px) {
+  #bodyMayo {
+    height: 270vh; }
+    #bodyMayo #header {
+      padding-left: 0px;
+      padding-right: 0px; }
+      #bodyMayo #header nav div a .navLogo {
+        width: 200px;
+        padding: 0px; }
+    #bodyMayo main {
+      height: 245vh; }
+      #bodyMayo main div section {
+        padding-left: 0px;
+        padding-right: 0px; }
+      #bodyMayo main #containerArea {
+        height: 23vh;
+        padding-top: 2vh; }
+      #bodyMayo main h5, #bodyMayo main .h5 {
+        padding-top: 2vh; }
+    #bodyMayo #footer {
+      background-color: #1e1f1e;
+      width: 100%; }
+      #bodyMayo #footer div #divFooter div a #imgFooter {
+        width: 200px; }
+      #bodyMayo #footer div div #ulDelFooter {
+        list-style-type: none;
+        text-decoration: none;
+        margin-bottom: 0px; } }
+
 #bodyOllerosDc {
   height: 225vh; }
   #bodyOllerosDc #header {
@@ -9125,6 +9154,35 @@ textarea.form-control-lg {
       list-style-type: none;
       text-decoration: none;
       margin-bottom: 0px; }
+
+@media (max-width: 600px) {
+  #bodyOllerosDc {
+    height: 270vh; }
+    #bodyOllerosDc #header {
+      padding-left: 0px;
+      padding-right: 0px; }
+      #bodyOllerosDc #header nav div a .navLogo {
+        width: 200px;
+        padding: 0px; }
+    #bodyOllerosDc main {
+      height: 245vh; }
+      #bodyOllerosDc main div section {
+        padding-left: 0px;
+        padding-right: 0px; }
+      #bodyOllerosDc main #containerArea {
+        height: 23vh;
+        padding-top: 2vh; }
+      #bodyOllerosDc main h5, #bodyOllerosDc main .h5 {
+        padding-top: 2vh; }
+    #bodyOllerosDc #footer {
+      background-color: #1e1f1e;
+      width: 100%; }
+      #bodyOllerosDc #footer div #divFooter div a #imgFooter {
+        width: 200px; }
+      #bodyOllerosDc #footer div div #ulDelFooter {
+        list-style-type: none;
+        text-decoration: none;
+        margin-bottom: 0px; } }
 
 #bodyOllerosSitios {
   height: 215vh; }
@@ -9154,6 +9212,35 @@ textarea.form-control-lg {
       text-decoration: none;
       margin-bottom: 0px; }
 
+@media (max-width: 600px) {
+  #bodyOllerosSitios {
+    height: 270vh; }
+    #bodyOllerosSitios #header {
+      padding-left: 0px;
+      padding-right: 0px; }
+      #bodyOllerosSitios #header nav div a .navLogo {
+        width: 200px;
+        padding: 0px; }
+    #bodyOllerosSitios main {
+      height: 245vh; }
+      #bodyOllerosSitios main div section {
+        padding-left: 0px;
+        padding-right: 0px; }
+      #bodyOllerosSitios main #containerArea {
+        height: 23vh;
+        padding-top: 2vh; }
+      #bodyOllerosSitios main h5, #bodyOllerosSitios main .h5 {
+        padding-top: 2vh; }
+    #bodyOllerosSitios #footer {
+      background-color: #1e1f1e;
+      width: 100%; }
+      #bodyOllerosSitios #footer div #divFooter div a #imgFooter {
+        width: 200px; }
+      #bodyOllerosSitios #footer div div #ulDelFooter {
+        list-style-type: none;
+        text-decoration: none;
+        margin-bottom: 0px; } }
+
 #bodySabattini {
   height: 215vh; }
   #bodySabattini #header {
@@ -9181,6 +9268,35 @@ textarea.form-control-lg {
       list-style-type: none;
       text-decoration: none;
       margin-bottom: 0px; }
+
+@media (max-width: 600px) {
+  #bodySabattini {
+    height: 270vh; }
+    #bodySabattini #header {
+      padding-left: 0px;
+      padding-right: 0px; }
+      #bodySabattini #header nav div a .navLogo {
+        width: 200px;
+        padding: 0px; }
+    #bodySabattini main {
+      height: 245vh; }
+      #bodySabattini main div section {
+        padding-left: 0px;
+        padding-right: 0px; }
+      #bodySabattini main #containerArea {
+        height: 23vh;
+        padding-top: 2vh; }
+      #bodySabattini main h5, #bodySabattini main .h5 {
+        padding-top: 2vh; }
+    #bodySabattini #footer {
+      background-color: #1e1f1e;
+      width: 100%; }
+      #bodySabattini #footer div #divFooter div a #imgFooter {
+        width: 200px; }
+      #bodySabattini #footer div div #ulDelFooter {
+        list-style-type: none;
+        text-decoration: none;
+        margin-bottom: 0px; } }
 
 * {
   padding: 0;
