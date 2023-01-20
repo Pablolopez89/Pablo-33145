@@ -9045,7 +9045,7 @@ textarea.form-control-lg {
   height: 170vh; }
   @media screen and (max-width: 576px) {
     #bodyContacto {
-      height: 130vh; } }
+      height: 110vh; } }
   #bodyContacto #header {
     padding-left: 0px;
     padding-right: 0px; }
@@ -9056,7 +9056,7 @@ textarea.form-control-lg {
     height: 150vh; }
     @media screen and (max-width: 576px) {
       #bodyContacto #mainContacto {
-        height: 110vh; } }
+        height: 90vh; } }
     #bodyContacto #mainContacto div section {
       padding-left: 0px;
       padding-right: 0px; }
@@ -9077,7 +9077,7 @@ textarea.form-control-lg {
       margin-bottom: 0px; }
 
 #bodyMayo {
-  height: 225vh; }
+  height: 200vh; }
   @media screen and (max-width: 576px) {
     #bodyMayo {
       height: 245vh; } }
@@ -9088,10 +9088,10 @@ textarea.form-control-lg {
       width: 200px;
       padding: 0px; }
   #bodyMayo main {
-    height: 200vh; }
+    height: 190vh; }
     @media screen and (max-width: 576px) {
       #bodyMayo main {
-        height: 220vh; } }
+        height: 235vh; } }
     #bodyMayo main div section {
       padding-left: 0px;
       padding-right: 0px; }
@@ -9114,7 +9114,7 @@ textarea.form-control-lg {
   height: 225vh; }
   @media screen and (max-width: 576px) {
     #bodyOllerosDc {
-      height: 245vh; } }
+      height: 270vh; } }
   #bodyOllerosDc #header {
     padding-left: 0px;
     padding-right: 0px; }
@@ -9125,7 +9125,7 @@ textarea.form-control-lg {
     height: 200vh; }
     @media screen and (max-width: 576px) {
       #bodyOllerosDc main {
-        height: 220vh; } }
+        height: 245vh; } }
     #bodyOllerosDc main div section {
       padding-left: 0px;
       padding-right: 0px; }
@@ -9145,7 +9145,7 @@ textarea.form-control-lg {
       margin-bottom: 0px; }
 
 #bodyOllerosSitios {
-  height: 225vh; }
+  height: 200vh; }
   @media screen and (max-width: 576px) {
     #bodyOllerosSitios {
       height: 245vh; } }
@@ -9156,10 +9156,10 @@ textarea.form-control-lg {
       width: 200px;
       padding: 0px; }
   #bodyOllerosSitios main {
-    height: 200vh; }
+    height: 190vh; }
     @media screen and (max-width: 576px) {
       #bodyOllerosSitios main {
-        height: 220vh; } }
+        height: 235vh; } }
     #bodyOllerosSitios main div section {
       padding-left: 0px;
       padding-right: 0px; }
@@ -9179,7 +9179,7 @@ textarea.form-control-lg {
       margin-bottom: 0px; }
 
 #bodySabattini {
-  height: 225vh; }
+  height: 200vh; }
   @media screen and (max-width: 576px) {
     #bodySabattini {
       height: 245vh; } }
@@ -9190,10 +9190,10 @@ textarea.form-control-lg {
       width: 200px;
       padding: 0px; }
   #bodySabattini main {
-    height: 200vh; }
+    height: 190vh; }
     @media screen and (max-width: 576px) {
       #bodySabattini main {
-        height: 220vh; } }
+        height: 235vh; } }
     #bodySabattini main div section {
       padding-left: 0px;
       padding-right: 0px; }
