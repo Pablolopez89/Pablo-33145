@@ -4,7 +4,7 @@
     #bodyContacto {
         height: 170vh;
         @include mobile {
-            height: 100vh;
+            height: 105vh;
         }
         #header {
             padding-left: 0px;
@@ -24,7 +24,7 @@
         #mainContacto {
             height: 150vh;
             @include mobile {
-                height: 80vh;
+                height: 85vh;
             }
             div {
                 section {
