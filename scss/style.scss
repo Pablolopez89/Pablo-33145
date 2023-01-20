@@ -20,6 +20,9 @@ a:link, a:visited, a:active {
 
 #bodyIndex {
     height: 180vh;
+    @include mobile {
+        height: 270vh;
+    }
     #header {
         padding-left: 0px;
         padding-right: 0px;
@@ -37,6 +40,9 @@ a:link, a:visited, a:active {
     }
     main {
         height: 155vh;
+        @include mobile {
+            height: 245vh;
+        }
         div {
             section {
                 padding-left: 0px;
@@ -64,6 +70,7 @@ a:link, a:visited, a:active {
     #footer {
         background-color: $colorgeneral;
         width: 100%;
+        height: 15vh;
         div {
             #divFooter {
                 div {
@@ -98,260 +105,3 @@ a:link, a:visited, a:active {
     }
     }
 
-    @media (max-width: 1200px) {
-
-    }
-    @media (max-width: 1024px) {
-      
-    }
-    @media (max-width: 768px) {
-    
-    }
-    @media (max-width: 600px) {
-        #body {
-            height: 270vh;
-            #header {
-                padding-left: 0px;
-                padding-right: 0px;
-                nav {
-                    div {
-                        a {
-                            .navLogo {
-                                width: 200px;
-                                padding: 0px;
-        
-                            }
-                        }
-                    }
-                }
-            }
-            main {
-                height: 245vh;
-                div {
-                    section {
-                        padding-left: 0px;
-                        padding-right: 0px;
-                        #carouselExampleSlidesOnly {
-                            div {
-        
-                                div {
-                                    img {
-        
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                #containerArea {
-                    height: 23vh;
-                    padding-top: 2vh;
-                }
-                h5 {
-                    padding-top: 2vh;
-                }
-            }
-            #footer {
-                background-color: $colorgeneral;
-                width: 100%;
-                div {
-                    #divFooter {
-                        div {
-                            a {
-                                #imgFooter {
-                                    width: 200px;
-                                }
-                            }
-                            p {
-        
-                            }       
-        
-                    } 
-                    }
-                        div {
-                            #ulDelFooter {
-                                @include reseteo-lista;
-                                margin-bottom: 0px;
-                                li {
-                                    a {
-                                        
-        
-                                    }
-        
-                                }
-        
-                            }
-                        }
-        
-                }
-        
-            }
-            }
-    
-    }
-    
-    @media (max-width: 480px) {
-        #body {
-            height: 270vh;
-            #header {
-                padding-left: 0px;
-                padding-right: 0px;
-                nav {
-                    div {
-                        a {
-                            .navLogo {
-                                width: 200px;
-                                padding: 0px;
-        
-                            }
-                        }
-                    }
-                }
-            }
-            main {
-                height: 245vh;
-                div {
-                    section {
-                        padding-left: 0px;
-                        padding-right: 0px;
-                        #carouselExampleSlidesOnly {
-                            div {
-        
-                                div {
-                                    img {
-        
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                #containerArea {
-                    height: 23vh;
-                    padding-top: 2vh;
-                }
-                h5 {
-                    padding-top: 2vh;
-                }
-            }
-            #footer {
-                background-color: $colorgeneral;
-                width: 100%;
-                div {
-                    #divFooter {
-                        div {
-                            a {
-                                #imgFooter {
-                                    width: 200px;
-                                }
-                            }
-                            p {
-        
-                            }       
-        
-                    } 
-                    }
-                        div {
-                            #ulDelFooter {
-                                @include reseteo-lista;
-                                margin-bottom: 0px;
-                                li {
-                                    a {
-                                        
-        
-                                    }
-        
-                                }
-        
-                            }
-                        }
-        
-                }
-        
-            }
-            }
-    
-    }
-    
-    @media (max-width: 320px) {
-        #body {
-            height: 270vh;
-            #header {
-                padding-left: 0px;
-                padding-right: 0px;
-                nav {
-                    div {
-                        a {
-                            .navLogo {
-                                width: 200px;
-                                padding: 0px;
-        
-                            }
-                        }
-                    }
-                }
-            }
-            main {
-                height: 245vh;
-                div {
-                    section {
-                        padding-left: 0px;
-                        padding-right: 0px;
-                        #carouselExampleSlidesOnly {
-                            div {
-        
-                                div {
-                                    img {
-        
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                #containerArea {
-                    height: 23vh;
-                    padding-top: 2vh;
-                }
-                h5 {
-                    padding-top: 2vh;
-                }
-            }
-            #footer {
-                background-color: $colorgeneral;
-                width: 100%;
-                div {
-                    #divFooter {
-                        div {
-                            a {
-                                #imgFooter {
-                                    width: 200px;
-                                }
-                            }
-                            p {
-        
-                            }       
-        
-                    } 
-                    }
-                        div {
-                            #ulDelFooter {
-                                @include reseteo-lista;
-                                margin-bottom: 0px;
-                                li {
-                                    a {
-                                        
-        
-                                    }
-        
-                                }
-        
-                            }
-                        }
-        
-                }
-        
-            }
-            }
-    
-    }
