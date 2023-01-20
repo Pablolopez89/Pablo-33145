@@ -71,6 +71,10 @@ a:link, a:visited, a:active {
         background-color: $colorgeneral;
         width: 100%;
         height: 15vh;
+        @include mobile {
+            height: 20vh;
+        }
+        
         div {
             #divFooter {
                 div {

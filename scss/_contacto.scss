@@ -3,6 +3,9 @@
 
     #bodyContacto {
         height: 170vh;
+        @include mobile {
+            height: 150vh;
+        }
         #header {
             padding-left: 0px;
             padding-right: 0px;
@@ -20,6 +23,9 @@
         }
         #mainContacto {
             height: 150vh;
+            @include mobile {
+                height: 130vh;
+            }
             div {
                 section {
                     padding-left: 0px;
