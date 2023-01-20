@@ -2,6 +2,9 @@
 
 #bodyOllerosDc {
     height: 225vh;
+    @include mobile {
+        height: 245vh;
+    }
     #header {
         padding-left: 0px;
         padding-right: 0px;
@@ -19,6 +22,9 @@
     }
     main {
         height: 200vh;
+        @include mobile {
+            height: 220vh;
+        }
         div {
             section {
                 padding-left: 0px;

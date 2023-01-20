@@ -1,9 +1,9 @@
 @import "./mixin";
 
 #bodyMayo {
-    height: 215vh;
+    height: 225vh;
     @include mobile {
-        height: 225vh;
+        height: 245vh;
     }
     #header {
         padding-left: 0px;
@@ -21,9 +21,9 @@
         }
     }
     main {
-        height: 190vh;
+        height: 200vh;
         @include mobile {
-            height: 200vh;
+            height: 220vh;
         }
         div {
             section {
