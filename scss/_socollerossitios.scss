@@ -3,7 +3,7 @@
 #bodyOllerosSitios {
     height: 200vh;
     @include mobile {
-        height: 290vh;
+        height: 280vh;
     }
     #header {
         padding-left: 0px;
@@ -23,7 +23,7 @@
     main {
         height: 190vh;
         @include mobile {
-            height: 280vh;
+            height: 270vh;
         }
         div {
             section {
