@@ -3,7 +3,7 @@
 #bodyOllerosDc {
     height: 225vh;
     @include mobile {
-        height: 270vh;
+        height: 265vh;
     }
     #header {
         padding-left: 0px;
@@ -23,7 +23,7 @@
     main {
         height: 200vh;
         @include mobile {
-            height: 245vh;
+            height: 240vh;
         }
         div {
             section {
