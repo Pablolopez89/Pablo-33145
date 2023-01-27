@@ -9041,176 +9041,166 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-#bodyContacto {
-  height: 170vh; }
-  @media screen and (max-width: 576px) {
-    #bodyContacto {
-      height: 105vh; } }
-  #bodyContacto #header {
-    padding-left: 0px;
-    padding-right: 0px; }
-    #bodyContacto #header nav div a .navLogo {
-      width: 200px;
-      padding: 0px; }
-  #bodyContacto #mainContacto {
-    height: 150vh; }
-    @media screen and (max-width: 576px) {
-      #bodyContacto #mainContacto {
-        height: 85vh; } }
-    #bodyContacto #mainContacto div section {
-      padding-left: 0px;
-      padding-right: 0px; }
-    #bodyContacto #mainContacto #containerArea {
-      height: 23vh;
-      padding-top: 2vh; }
-    #bodyContacto #mainContacto h5, #bodyContacto #mainContacto .h5 {
-      padding-top: 2vh; }
-  #bodyContacto #footerContacto {
-    background-color: #1e1f1e;
-    width: 100%;
-    margin-bottom: 0%; }
-    #bodyContacto #footerContacto div #divFooterContacto div a #imgFooter {
-      width: 200px; }
-    #bodyContacto #footerContacto div div #ulDelFooter {
-      list-style-type: none;
-      text-decoration: none;
-      margin-bottom: 0px; }
+#bodyContacto #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyContacto #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
 
-#bodyMayo {
-  height: 200vh; }
-  @media screen and (max-width: 576px) {
-    #bodyMayo {
-      height: 240vh; } }
-  #bodyMayo #header {
-    padding-left: 0px;
-    padding-right: 0px; }
-    #bodyMayo #header nav div a .navLogo {
-      width: 200px;
-      padding: 0px; }
-  #bodyMayo main {
-    height: 190vh; }
-    @media screen and (max-width: 576px) {
-      #bodyMayo main {
-        height: 230vh; } }
-    #bodyMayo main div section {
-      padding-left: 0px;
-      padding-right: 0px; }
-    #bodyMayo main #containerArea {
-      height: 23vh;
-      padding-top: 2vh; }
-    #bodyMayo main h5, #bodyMayo main .h5 {
-      padding-top: 2vh; }
-  #bodyMayo #footer {
-    background-color: #1e1f1e;
-    width: 100%; }
-    #bodyMayo #footer div #divFooter div a #imgFooter {
-      width: 200px; }
-    #bodyMayo #footer div div #ulDelFooter {
-      list-style-type: none;
-      text-decoration: none;
-      margin-bottom: 0px; }
+#bodyContacto #mainContacto div section {
+  padding-left: 0px;
+  padding-right: 0px; }
 
-#bodyOllerosDc {
-  height: 225vh; }
-  @media screen and (max-width: 576px) {
-    #bodyOllerosDc {
-      height: 265vh; } }
-  #bodyOllerosDc #header {
-    padding-left: 0px;
-    padding-right: 0px; }
-    #bodyOllerosDc #header nav div a .navLogo {
-      width: 200px;
-      padding: 0px; }
-  #bodyOllerosDc main {
-    height: 200vh; }
-    @media screen and (max-width: 576px) {
-      #bodyOllerosDc main {
-        height: 240vh; } }
-    #bodyOllerosDc main div section {
-      padding-left: 0px;
-      padding-right: 0px; }
-    #bodyOllerosDc main #containerArea {
-      height: 23vh;
-      padding-top: 2vh; }
-    #bodyOllerosDc main h5, #bodyOllerosDc main .h5 {
-      padding-top: 2vh; }
-  #bodyOllerosDc #footer {
-    background-color: #1e1f1e;
-    width: 100%; }
-    #bodyOllerosDc #footer div #divFooter div a #imgFooter {
-      width: 200px; }
-    #bodyOllerosDc #footer div div #ulDelFooter {
-      list-style-type: none;
-      text-decoration: none;
-      margin-bottom: 0px; }
+#bodyContacto #mainContacto section {
+  margin-bottom: 1rem; }
 
-#bodyOllerosSitios {
-  height: 200vh; }
-  @media screen and (max-width: 576px) {
-    #bodyOllerosSitios {
-      height: 240vh; } }
-  #bodyOllerosSitios #header {
-    padding-left: 0px;
-    padding-right: 0px; }
-    #bodyOllerosSitios #header nav div a .navLogo {
-      width: 200px;
-      padding: 0px; }
-  #bodyOllerosSitios main {
-    height: 190vh; }
-    @media screen and (max-width: 576px) {
-      #bodyOllerosSitios main {
-        height: 230vh; } }
-    #bodyOllerosSitios main div section {
-      padding-left: 0px;
-      padding-right: 0px; }
-    #bodyOllerosSitios main #containerArea {
-      height: 23vh;
-      padding-top: 2vh; }
-    #bodyOllerosSitios main h5, #bodyOllerosSitios main .h5 {
-      padding-top: 2vh; }
-  #bodyOllerosSitios #footer {
-    background-color: #1e1f1e;
-    width: 100%; }
-    #bodyOllerosSitios #footer div #divFooter div a #imgFooter {
-      width: 200px; }
-    #bodyOllerosSitios #footer div div #ulDelFooter {
-      list-style-type: none;
-      text-decoration: none;
-      margin-bottom: 0px; }
+#bodyContacto #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodyContacto #footer div #divFooterContacto a #imgFooter {
+    width: 200px; }
+  #bodyContacto #footer div #divFooterContacto p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodyContacto #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodyContacto #footer div div #ulDelFooter li a {
+      font-size: 0.8rem; }
 
-#bodySabattini {
-  height: 200vh; }
-  @media screen and (max-width: 576px) {
-    #bodySabattini {
-      height: 240vh; } }
-  #bodySabattini #header {
-    padding-left: 0px;
-    padding-right: 0px; }
-    #bodySabattini #header nav div a .navLogo {
-      width: 200px;
-      padding: 0px; }
-  #bodySabattini main {
-    height: 190vh; }
-    @media screen and (max-width: 576px) {
-      #bodySabattini main {
-        height: 230vh; } }
-    #bodySabattini main div section {
-      padding-left: 0px;
-      padding-right: 0px; }
-    #bodySabattini main #containerArea {
-      height: 23vh;
-      padding-top: 2vh; }
-    #bodySabattini main h5, #bodySabattini main .h5 {
-      padding-top: 2vh; }
-  #bodySabattini #footer {
-    background-color: #1e1f1e;
-    width: 100%; }
-    #bodySabattini #footer div #divFooter div a #imgFooter {
-      width: 200px; }
-    #bodySabattini #footer div div #ulDelFooter {
-      list-style-type: none;
-      text-decoration: none;
-      margin-bottom: 0px; }
+#bodyMayo #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyMayo #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
+
+#bodyMayo main div section {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#bodyMayo main #containerArea {
+  padding-top: 2vh; }
+
+#bodyMayo main h5, #bodyMayo main .h5 {
+  padding-top: 2vh; }
+
+#bodyMayo #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodyMayo #footer div #divFooter div a #imgFooter {
+    width: 200px; }
+  #bodyMayo #footer div #divFooter div p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodyMayo #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodyMayo #footer div div #ulDelFooter li a {
+      padding-left: 2rem;
+      font-size: 0.8rem; }
+
+#bodyOllerosDc #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyOllerosDc #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
+
+#bodyOllerosDc main div section {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#bodyOllerosDc main #containerArea {
+  padding-top: 2vh; }
+
+#bodyOllerosDc main h5, #bodyOllerosDc main .h5 {
+  padding-top: 2vh; }
+
+#bodyOllerosDc #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodyOllerosDc #footer div #divFooter div a #imgFooter {
+    width: 200px; }
+  #bodyOllerosDc #footer div #divFooter div p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodyOllerosDc #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodyOllerosDc #footer div div #ulDelFooter li a {
+      padding-left: 2rem;
+      font-size: 0.8rem; }
+
+#bodyOllerosSitios #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyOllerosSitios #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
+
+#bodyOllerosSitios main div section {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#bodyOllerosSitios main #containerArea {
+  padding-top: 2vh; }
+
+#bodyOllerosSitios main h5, #bodyOllerosSitios main .h5 {
+  padding-top: 2vh; }
+
+#bodyOllerosSitios #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodyOllerosSitios #footer div #divFooter div a #imgFooter {
+    width: 200px; }
+  #bodyOllerosSitios #footer div #divFooter div p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodyOllerosSitios #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodyOllerosSitios #footer div div #ulDelFooter li a {
+      padding-left: 2rem;
+      font-size: 0.8rem; }
+
+#bodySabattini #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodySabattini #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
+
+#bodySabattini main div section {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#bodySabattini main #containerArea {
+  padding-top: 2vh; }
+
+#bodySabattini main h5, #bodySabattini main .h5 {
+  padding-top: 2vh; }
+
+#bodySabattini #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodySabattini #footer div #divFooter div a #imgFooter {
+    width: 200px; }
+  #bodySabattini #footer div #divFooter div p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodySabattini #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodySabattini #footer div div #ulDelFooter li a {
+      padding-left: 2rem;
+      font-size: 0.8rem; }
 
 * {
   padding: 0;
@@ -9221,40 +9211,35 @@ a:link, a:visited, a:active {
   list-style-type: none;
   text-decoration: none; }
 
-#bodyIndex {
-  height: 180vh; }
-  @media screen and (max-width: 576px) {
-    #bodyIndex {
-      height: 270vh; } }
-  #bodyIndex #header {
-    padding-left: 0px;
-    padding-right: 0px; }
-    #bodyIndex #header nav div a .navLogo {
-      width: 200px;
-      padding: 0px; }
-  #bodyIndex main {
-    height: 155vh; }
-    @media screen and (max-width: 576px) {
-      #bodyIndex main {
-        height: 245vh; } }
-    #bodyIndex main div section {
-      padding-left: 0px;
-      padding-right: 0px; }
-    #bodyIndex main #containerArea {
-      height: 23vh;
-      padding-top: 2vh; }
-    #bodyIndex main h5, #bodyIndex main .h5 {
-      padding-top: 2vh; }
-  #bodyIndex #footer {
-    background-color: #1e1f1e;
-    width: 100%;
-    height: 15vh; }
-    @media screen and (max-width: 576px) {
-      #bodyIndex #footer {
-        height: 20vh; } }
-    #bodyIndex #footer div #divFooter div a #imgFooter {
-      width: 200px; }
-    #bodyIndex #footer div div #ulDelFooter {
-      list-style-type: none;
-      text-decoration: none;
-      margin-bottom: 0px; }
+#bodyIndex #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyIndex #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
+
+#bodyIndex main div section {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#bodyIndex main #containerArea {
+  padding-top: 2vh; }
+
+#bodyIndex main h5, #bodyIndex main .h5 {
+  padding-top: 2vh; }
+
+#bodyIndex #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodyIndex #footer div #divFooter div a #imgFooter {
+    width: 200px; }
+  #bodyIndex #footer div #divFooter div p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodyIndex #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodyIndex #footer div div #ulDelFooter li a {
+      padding-left: 2rem;
+      font-size: 0.8rem; }

@@ -1,10 +1,6 @@
 @import "./mixin";
 
 #bodyMayo {
-    height: 200vh;
-    @include mobile {
-        height: 240vh;
-    }
     #header {
         padding-left: 0px;
         padding-right: 0px;
@@ -21,10 +17,7 @@
         }
     }
     main {
-        height: 190vh;
-        @include mobile {
-            height: 230vh;
-        }
+
         div {
             section {
                 padding-left: 0px;
@@ -42,7 +35,6 @@
             }
         }
         #containerArea {
-            height: 23vh;
             padding-top: 2vh;
         }
         h5 {
@@ -61,6 +53,8 @@
                         }
                     }
                     p {
+                        padding-left: 2rem;
+                        font-size: 0.8rem;
 
                     }       
 
@@ -72,6 +66,8 @@
                         margin-bottom: 0px;
                         li {
                             a {
+                                padding-left: 2rem;
+                                font-size: 0.8rem;
                                 
 
                             }

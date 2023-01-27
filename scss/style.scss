@@ -19,10 +19,6 @@ a:link, a:visited, a:active {
 }
 
 #bodyIndex {
-    height: 180vh;
-    @include mobile {
-        height: 270vh;
-    }
     #header {
         padding-left: 0px;
         padding-right: 0px;
@@ -39,10 +35,6 @@ a:link, a:visited, a:active {
         }
     }
     main {
-        height: 155vh;
-        @include mobile {
-            height: 245vh;
-        }
         div {
             section {
                 padding-left: 0px;
@@ -60,7 +52,6 @@ a:link, a:visited, a:active {
             }
         }
         #containerArea {
-            height: 23vh;
             padding-top: 2vh;
         }
         h5 {
@@ -70,11 +61,6 @@ a:link, a:visited, a:active {
     #footer {
         background-color: $colorgeneral;
         width: 100%;
-        height: 15vh;
-        @include mobile {
-            height: 20vh;
-        }
-        
         div {
             #divFooter {
                 div {
@@ -84,7 +70,8 @@ a:link, a:visited, a:active {
                         }
                     }
                     p {
-
+                        padding-left: 2rem;
+                        font-size: 0.8rem;
                     }       
 
             } 
@@ -95,6 +82,8 @@ a:link, a:visited, a:active {
                         margin-bottom: 0px;
                         li {
                             a {
+                                padding-left: 2rem;
+                                font-size: 0.8rem;                              
                                 
 
                             }

@@ -2,10 +2,7 @@
 @import "./mixin";
 
     #bodyContacto {
-        height: 170vh;
-        @include mobile {
-            height: 105vh;
-        }
+
         #header {
             padding-left: 0px;
             padding-right: 0px;
@@ -22,10 +19,6 @@
             }
         }
         #mainContacto {
-            height: 150vh;
-            @include mobile {
-                height: 85vh;
-            }
             div {
                 section {
                     padding-left: 0px;
@@ -42,31 +35,25 @@
                     }
                 }
             }
-            #containerArea {
-                height: 23vh;
-                padding-top: 2vh;
-            }
-            h5 {
-                padding-top: 2vh;
+            section {
+                margin-bottom: 1rem;
+
             }
         }
-        #footerContacto {
+        #footer {
             background-color: $colorgeneral;
-            width: 100%;
-            margin-bottom: 0%;
+            width: 100%;    
             div {
                 #divFooterContacto {
-                    div {
                         a {
                             #imgFooter {
                                 width: 200px;
                             }
                         }
                         p {
-    
+                            padding-left: 2rem;
+                            font-size: 0.8rem;
                         }       
-    
-                } 
                 }
                     div {
                         #ulDelFooter {
@@ -74,6 +61,7 @@
                             margin-bottom: 0px;
                             li {
                                 a {
+                                    font-size: 0.8rem;
                                     
     
                                 }
