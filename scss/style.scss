@@ -6,6 +6,7 @@
 @import "./socollerossitios";
 @import "./socsabattini";
 @import "./mixin";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");    
 
 
 *{
@@ -20,8 +21,7 @@ a:link, a:visited, a:active {
 
 #bodyIndex {
     #header {
-        padding-left: 0px;
-        padding-right: 0px;
+        @include ajuste-padding;
         nav {
             div {
                 a {
@@ -37,9 +37,83 @@ a:link, a:visited, a:active {
     main {
         div {
             section {
-                padding-left: 0px;
-                padding-right: 0px;
+                @include ajuste-padding;
 
+            }
+        }
+        div {
+            div {               
+                .modcumple {
+                    background: #f2f2f3;
+                    padding: 27px 20px 31px;
+                    
+                    .modcumple__content {
+                        margin: 21px 0 0;
+                        .modcumple-container {
+                            margin: 0px -15px 0px 0;
+                            padding-right: 15px;
+                            height: 310px;
+                            overflow-y: scroll;
+                            overflow-x: hidden;
+                            .modcumple__ul {
+                                height: 189px;
+                                margin: 0px;
+                                .modcumple__li {
+                                    vertical-align: middle;
+                                    height: 66px;
+                                    padding:0 0 0;
+                                    @include reseteo-lista;
+                                    .modcumple__lkn {
+                                        img {
+                                            vertical-align: middle;
+                                            border-radius: 125px;
+                                            overflow: hidden;
+                                            position: relative;
+                                            float: left;
+                                            width: 51px;
+                                            height: 51px;
+                                        }
+                                        .modcumple__data {
+                                            margin-left: 60px;
+                                            display: block;
+                                            .modcumple__name {
+                                                line-height: 20px;
+                                                padding-right: 5px;
+                                                font-size: 15px;
+                                                font-weight: 400;
+                                                padding-top: 6px;
+                                                padding-bottom: 2px;
+                                                white-space: nowrap;
+                                                overflow: hidden;
+                                                display: block;
+                                                text-overflow: ellipsis;
+                                            }
+                                            .modcumple__btn {
+                                                position: relative;
+                                                color: #10a3c2;
+                                                padding: 0 0 20px;
+                                                text-transform: capitalize;
+                                                font-size: 12px;
+                                                .bi-microsoft-teams {
+                                                    font-size: 1.2rem;
+                                                    padding: 4px;
+                                                }
+                                                .bi-envelope-fill {
+                                                    font-size: 1.2rem;
+                                                    padding: 4px;
+                                                }
+                                            }
+                                            .modcumple__btn--saludo {
+                                                padding-left: 22px;
+                                                margin-left: 5px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
         #containerArea {

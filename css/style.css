@@ -3,6 +3,7 @@
    * Copyright 2011-2022 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9218,6 +9219,64 @@ a:link, a:visited, a:active {
 #bodyIndex main div section {
   padding-left: 0px;
   padding-right: 0px; }
+
+#bodyIndex main div div .modcumple {
+  background: #f2f2f3;
+  padding: 27px 20px 31px; }
+  #bodyIndex main div div .modcumple .modcumple__content {
+    margin: 21px 0 0; }
+    #bodyIndex main div div .modcumple .modcumple__content .modcumple-container {
+      margin: 0px -15px 0px 0;
+      padding-right: 15px;
+      height: 310px;
+      overflow-y: scroll;
+      overflow-x: hidden; }
+      #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul {
+        height: 189px;
+        margin: 0px; }
+        #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li {
+          vertical-align: middle;
+          height: 66px;
+          padding: 0 0 0;
+          list-style-type: none;
+          text-decoration: none; }
+          #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn img {
+            vertical-align: middle;
+            border-radius: 125px;
+            overflow: hidden;
+            position: relative;
+            float: left;
+            width: 51px;
+            height: 51px; }
+          #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data {
+            margin-left: 60px;
+            display: block; }
+            #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__name {
+              line-height: 20px;
+              padding-right: 5px;
+              font-size: 15px;
+              font-weight: 400;
+              padding-top: 6px;
+              padding-bottom: 2px;
+              white-space: nowrap;
+              overflow: hidden;
+              display: block;
+              text-overflow: ellipsis; }
+            #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn {
+              position: relative;
+              color: #10a3c2;
+              padding: 0 0 20px;
+              text-transform: capitalize;
+              font-size: 12px; }
+              #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-microsoft-teams {
+                font-size: 1.2rem;
+                padding: 4px; }
+              #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-envelope-fill {
+                font-size: 1.2rem;
+                padding: 4px; }
+            #bodyIndex main div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn--saludo {
+              padding-left: 22px;
+              margin-left: 5px; }
 
 #bodyIndex main #containerArea {
   padding-top: 2vh; }
