@@ -3,8 +3,7 @@
 #bodyOllerosDc {
 
     #header {
-        padding-left: 0px;
-        padding-right: 0px;
+        @include ajuste-padding;
         nav {
             div {
                 a {
@@ -18,21 +17,10 @@
         }
     }
     main {
-
         div {
             section {
-                padding-left: 0px;
-                padding-right: 0px;
-                #carouselExampleSlidesOnly {
-                    div {
+                @include ajuste-padding;
 
-                        div {
-                            img {
-
-                            }
-                        }
-                    }
-                }
             }
         }
         #containerArea {

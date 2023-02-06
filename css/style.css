@@ -9081,25 +9081,22 @@ textarea.form-control-lg {
   padding-left: 0px;
   padding-right: 0px; }
 
-#bodyMayo main #containerArea {
+#bodyMayo h5, #bodyMayo .h5 {
   padding-top: 2vh; }
 
-#bodyMayo main h5, #bodyMayo main .h5 {
-  padding-top: 2vh; }
-
-#bodyMayo #footer {
+#footer {
   background-color: #1e1f1e;
   width: 100%; }
-  #bodyMayo #footer div #divFooter div a #imgFooter {
+  #footer div #divFooter div a #imgFooter {
     width: 200px; }
-  #bodyMayo #footer div #divFooter div p {
+  #footer div #divFooter div p {
     padding-left: 2rem;
     font-size: 0.8rem; }
-  #bodyMayo #footer div div #ulDelFooter {
+  #footer div div #ulDelFooter {
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 0px; }
-    #bodyMayo #footer div div #ulDelFooter li a {
+    #footer div div #ulDelFooter li a {
       padding-left: 2rem;
       font-size: 0.8rem; }
 
