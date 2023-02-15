@@ -42,11 +42,30 @@ a:link, a:visited, a:active {
 
             }
         }
+        #containerTextoSoc {
+            @include ajuste-padding;
+            div {
+                div {
+                    color: #2b2b2c;
+                    text-align: justify;
+                }
+            }
+        }
         #divContainerCumple {
             background: #f2f2f3;
+            
             div {
-                div {               
-                    .modcumple {
+                div {
+                    div {
+                        a {
+                            color: #181716;
+                            &:hover {
+                                color: #fa0707;
+                            }
+                        }
+                    }
+                }      
+                .modcumple {
                         padding: 27px 20px 31px;
                         
                         .modcumple__content {
@@ -168,5 +187,5 @@ a:link, a:visited, a:active {
         }
 
     }
-    }
+    
 

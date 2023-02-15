@@ -9313,28 +9313,39 @@ a:link, a:visited, a:active {
   padding-left: 0px;
   padding-right: 0px; }
 
+#bodyIndex main #containerTextoSoc {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyIndex main #containerTextoSoc div div {
+    color: #2b2b2c;
+    text-align: justify; }
+
 #bodyIndex main #divContainerCumple {
   background: #f2f2f3; }
-  #bodyIndex main #divContainerCumple div div .modcumple {
+  #bodyIndex main #divContainerCumple div div div a {
+    color: #181716; }
+    #bodyIndex main #divContainerCumple div div div a:hover {
+      color: #fa0707; }
+  #bodyIndex main #divContainerCumple div .modcumple {
     padding: 27px 20px 31px; }
-    #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content {
+    #bodyIndex main #divContainerCumple div .modcumple .modcumple__content {
       margin: 21px 0 0; }
-      #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container {
+      #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container {
         margin: 0px -15px 0px 0;
         padding-right: 15px;
         height: 310px;
         overflow-y: scroll;
         overflow-x: hidden; }
-        #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul {
+        #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul {
           height: 189px;
           margin: 0px; }
-          #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li {
+          #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li {
             vertical-align: middle;
             height: 66px;
             padding: 0 0 0;
             list-style-type: none;
             text-decoration: none; }
-            #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn img {
+            #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn img {
               vertical-align: middle;
               border-radius: 125px;
               overflow: hidden;
@@ -9342,10 +9353,10 @@ a:link, a:visited, a:active {
               float: left;
               width: 51px;
               height: 51px; }
-            #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data {
+            #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data {
               margin-left: 60px;
               display: block; }
-              #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__name {
+              #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__name {
                 line-height: 20px;
                 padding-right: 5px;
                 font-size: 15px;
@@ -9356,41 +9367,41 @@ a:link, a:visited, a:active {
                 overflow: hidden;
                 display: block;
                 text-overflow: ellipsis; }
-              #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn {
+              #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn {
                 position: relative;
                 color: #10a3c2;
                 padding: 0 0 20px;
                 font-size: 12px; }
-                #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn:hover {
+                #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn:hover {
                   color: #181716; }
-                #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-microsoft-teams {
+                #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-microsoft-teams {
                   font-size: 1.2rem;
                   padding: 4px; }
-                #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-envelope-fill {
+                #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-envelope-fill {
                   font-size: 1.2rem;
                   padding: 4px; }
-              #bodyIndex main #divContainerCumple div div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn--saludo {
+              #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn--saludo {
                 padding-left: 22px;
                 margin-left: 5px; }
 
-#bodyIndex main #containerArea {
+#bodyIndex #containerArea {
   padding-top: 2vh; }
 
-#bodyIndex main h5, #bodyIndex main .h5 {
+#bodyIndex h5, #bodyIndex .h5 {
   padding-top: 2vh; }
 
-#bodyIndex #footer {
+#footer {
   background-color: #1e1f1e;
   width: 100%; }
-  #bodyIndex #footer div #divFooter div a #imgFooter {
+  #footer div #divFooter div a #imgFooter {
     width: 200px; }
-  #bodyIndex #footer div #divFooter div p {
+  #footer div #divFooter div p {
     padding-left: 2rem;
     font-size: 0.8rem; }
-  #bodyIndex #footer div div #ulDelFooter {
+  #footer div div #ulDelFooter {
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 0px; }
-    #bodyIndex #footer div div #ulDelFooter li a {
+    #footer div div #ulDelFooter li a {
       padding-left: 2rem;
       font-size: 0.8rem; }
