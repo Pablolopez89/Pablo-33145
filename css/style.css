@@ -9418,24 +9418,24 @@ a:link, a:visited, a:active {
                 padding-left: 22px;
                 margin-left: 5px; }
 
-#bodyIndex #containerArea {
+#bodyIndex main #containerArea {
   padding-top: 2vh; }
 
-#bodyIndex h5, #bodyIndex .h5 {
+#bodyIndex main h5, #bodyIndex main .h5 {
   padding-top: 2vh; }
 
-#footer {
+#bodyIndex #footer {
   background-color: #1e1f1e;
   width: 100%; }
-  #footer div #divFooter div a #imgFooter {
+  #bodyIndex #footer div #divFooter div a #imgFooter {
     width: 200px; }
-  #footer div #divFooter div p {
+  #bodyIndex #footer div #divFooter div p {
     padding-left: 2rem;
     font-size: 0.8rem; }
-  #footer div div #ulDelFooter {
+  #bodyIndex #footer div div #ulDelFooter {
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 0px; }
-    #footer div div #ulDelFooter li a {
+    #bodyIndex #footer div div #ulDelFooter li a {
       padding-left: 2rem;
       font-size: 0.8rem; }
