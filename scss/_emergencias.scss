@@ -1,0 +1,73 @@
+
+#bodyIndex {
+    #header {
+        @include ajuste-padding;
+        nav {
+            div {
+                a {
+                    .navLogo {
+                        width: 200px;
+                        padding: 0px;
+
+                    }
+                }
+            }
+        }
+    }
+    main {
+        div {
+            section {
+                @include ajuste-padding;
+
+            }
+        }
+        #containerTextoSoc {
+            @include ajuste-padding;
+            div {
+                div {
+                    color: #2b2b2c;
+                    text-align: justify;
+                }
+            }
+        }
+
+        }
+    }
+    #footer {
+        background-color: $colorgeneral;
+        width: 100%;
+        div {
+            #divFooter {
+                div {
+                    a {
+                        #imgFooter {
+                            width: 200px;
+                        }
+                    }
+                    p {
+                        padding-left: 2rem;
+                        font-size: 0.8rem;
+                    }       
+
+            } 
+            }
+                div {
+                    #ulDelFooter {
+                        @include reseteo-lista;
+                        margin-bottom: 0px;
+                        li {
+                            a {
+                                padding-left: 2rem;
+                                font-size: 0.8rem;                              
+                                
+
+                            }
+
+                        }
+
+                    }
+                }
+
+        }
+
+    }
