@@ -1,21 +1,33 @@
-const form = document.getElementById('login-form');
+// Login
+document.addEventListener('DOMContentLoaded', function () {
+  const btnIniciar = document.getElementById('btnIniciar');
+  btnIniciar.addEventListener('click', function () {
+    const userName = document.getElementById('user').value;
+    const password = document.getElementById('pass').value;
 
-form.addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevenir la acción predeterminada del envío del formulario
-
-    const usernameInput = document.getElementById('username');
-    const passwordInput = document.getElementById('floatingPassword');
-    const rememberMeInput = document.querySelector('input[type="checkbox"]');
-
-    const username = "EXA63467";
-    const password = "EXA63467";
-    const rememberMe = rememberMeInput.checked;
-
-    // Validar los campos de entrada según nuestras necesidades
-    if (usernameInput.value === username && passwordInput.value === password) {
-        alert('Inicio de sesión exitoso');
-        window.location.href = 'index.html'; // Redirigir al usuario a la página de inicio
+    if (userName === 'exa63467' && password === '123') {
+      // redirigir al usuario a la pagina principal
+      window.location.href = 'pages/index-pp.html';
     } else {
-        alert('Nombre de usuario o contraseña incorrectos');
+      alert('Credenciales incorrectas. Intente de nuevo.');
     }
+  });
+});
+
+// Buscador
+// Obtiene el elemento del input y todos los botones
+const input = document.getElementById('buscador');
+const botones = document.querySelectorAll('button[type="button"]');
+
+// Agrega el evento input al input para filtrar los botones
+input.addEventListener('input', function() {
+  const filtro = this.value.toLowerCase(); // Obtiene el valor del input y lo convierte en minúsculas
+  botones.forEach(function(boton) {
+    const textoBoton = boton.textContent.toLowerCase(); // Obtiene el texto del botón y lo convierte en minúsculas
+    if (textoBoton.indexOf(filtro) !== -1) { // Si el texto del botón contiene el filtro, muestra el botón
+      boton.style.display = '';
+    } else { // De lo contrario, oculta el botón
+      boton.style.display = 'none';
+    }
+  });
 });

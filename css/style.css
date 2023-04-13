@@ -3,6 +3,7 @@
    * Copyright 2011-2022 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 :root,
 [data-bs-theme="light"] {
@@ -9112,6 +9113,9 @@ textarea.form-control-lg {
   padding-left: 0px;
   padding-right: 0px; }
 
+#bodyOllerosDc main div .filtro {
+  display: none; }
+
 #bodyOllerosDc main #containerArea {
   padding-top: 2vh; }
 
@@ -9324,6 +9328,186 @@ textarea.form-control-lg {
     text-decoration: none;
     margin-bottom: 0px; }
     #footer div div #ulDelFooter li a {
+      padding-left: 2rem;
+      font-size: 0.8rem; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+#bodyLogin {
+  background-color: #f11f1f; }
+  #bodyLogin .containerLogo {
+    max-width: 350px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #222121, -10px -10px 10px #222121; }
+    #bodyLogin .containerLogo .logo {
+      margin: auto; }
+      #bodyLogin .containerLogo .logo img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover; }
+    #bodyLogin .containerLogo .name {
+      font-weight: 600;
+      font-size: 1.4rem;
+      letter-spacing: 1.3px;
+      padding-left: 10px;
+      color: #555; }
+    #bodyLogin .containerLogo .form-field {
+      padding-left: 10px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff; }
+      #bodyLogin .containerLogo .form-field input {
+        width: 100%;
+        display: block;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.2rem;
+        color: #666;
+        padding: 10px 15px 10px 10px; }
+      #bodyLogin .containerLogo .form-field .fas {
+        color: #555; }
+    #bodyLogin .containerLogo .btn {
+      box-shadow: none;
+      width: 100%;
+      height: 40px;
+      background-color: #ff0000;
+      color: #fff;
+      border-radius: 25px;
+      box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+      letter-spacing: 1.3px; }
+      #bodyLogin .containerLogo .btn:hover {
+        background-color: #1f1e1e; }
+    #bodyLogin .containerLogo a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      color: #03A9F4; }
+      #bodyLogin .containerLogo a:hover {
+        color: #1f1e1e; }
+
+@media (max-width: 380px) {
+  .containerLogo {
+    margin: 30px 20px;
+    padding: 40px 15px 15px 15px; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a:link, a:visited, a:active {
+  list-style-type: none;
+  text-decoration: none; }
+
+#bodyIndex #header {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyIndex #header nav div a .navLogo {
+    width: 200px;
+    padding: 0px; }
+
+#bodyIndex main div section {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+#bodyIndex main #containerTextoSoc {
+  padding-left: 0px;
+  padding-right: 0px; }
+  #bodyIndex main #containerTextoSoc div div {
+    color: #2b2b2c;
+    text-align: justify; }
+
+#bodyIndex main #divContainerCumple {
+  background: #f2f2f3; }
+  #bodyIndex main #divContainerCumple div div div a {
+    color: #181716; }
+    #bodyIndex main #divContainerCumple div div div a:hover {
+      color: #fa0707; }
+  #bodyIndex main #divContainerCumple div .modcumple {
+    padding: 27px 20px 31px; }
+    #bodyIndex main #divContainerCumple div .modcumple .modcumple__content {
+      margin: 21px 0 0; }
+      #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container {
+        margin: 0px -15px 0px 0;
+        padding-right: 15px;
+        height: 310px;
+        overflow-y: scroll;
+        overflow-x: hidden; }
+        #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul {
+          height: 189px;
+          margin: 0px; }
+          #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li {
+            vertical-align: middle;
+            height: 66px;
+            padding: 0 0 0;
+            list-style-type: none;
+            text-decoration: none; }
+            #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn img {
+              vertical-align: middle;
+              border-radius: 125px;
+              overflow: hidden;
+              position: relative;
+              float: left;
+              width: 51px;
+              height: 51px; }
+            #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data {
+              margin-left: 60px;
+              display: block; }
+              #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__name {
+                line-height: 20px;
+                padding-right: 5px;
+                font-size: 15px;
+                font-weight: 400;
+                padding-top: 6px;
+                padding-bottom: 2px;
+                white-space: nowrap;
+                overflow: hidden;
+                display: block;
+                text-overflow: ellipsis; }
+              #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn {
+                position: relative;
+                color: #10a3c2;
+                padding: 0 0 20px;
+                font-size: 12px; }
+                #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn:hover {
+                  color: #181716; }
+                #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-microsoft-teams {
+                  font-size: 1.2rem;
+                  padding: 4px; }
+                #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn .bi-envelope-fill {
+                  font-size: 1.2rem;
+                  padding: 4px; }
+              #bodyIndex main #divContainerCumple div .modcumple .modcumple__content .modcumple-container .modcumple__ul .modcumple__li .modcumple__lkn .modcumple__data .modcumple__btn--saludo {
+                padding-left: 22px;
+                margin-left: 5px; }
+
+#bodyIndex main #containerArea {
+  padding-top: 2vh; }
+
+#bodyIndex main h5, #bodyIndex main .h5 {
+  padding-top: 2vh; }
+
+#bodyIndex #footer {
+  background-color: #1e1f1e;
+  width: 100%; }
+  #bodyIndex #footer div #divFooter div a #imgFooter {
+    width: 200px; }
+  #bodyIndex #footer div #divFooter div p {
+    padding-left: 2rem;
+    font-size: 0.8rem; }
+  #bodyIndex #footer div div #ulDelFooter {
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 0px; }
+    #bodyIndex #footer div div #ulDelFooter li a {
       padding-left: 2rem;
       font-size: 0.8rem; }
 
