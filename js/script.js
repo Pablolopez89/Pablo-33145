@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const userName = document.getElementById('user').value;
     const password = document.getElementById('pass').value;
 
-    if (userName === 'exa63467' && password === '123') {
+    if (userName === '123' && password === '123') {
       // redirigir al usuario a la pagina principal
       window.location.href = 'pages/index-pp.html';
     } else {
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// Buscador
+// Buscador/ Filtrador de edificios:
 // Obtiene el elemento del input y todos los botones
 const input = document.getElementById('buscador');
 const botones = document.querySelectorAll('button[type="button"]');
@@ -31,3 +31,24 @@ input.addEventListener('input', function() {
     }
   });
 });
+
+
+function mostrarModal() {
+  const modal = document.getElementById("exampleModal1");
+  const infoEdificio = document.getElementById("info-edificio");
+  infoEdificio.innerHTML = "";
+
+  fetch('edificios.json')
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(edificio => {
+        const edificioHTML = `
+          <div>
+            <h2>${edificio.nombre}</h2>
+            <p><strong>Dirección:</strong> ${edificio.direccion}</p>
+            <p><strong>Teléfono:</strong> ${edificio.telefono}</p>
+          </div>`;
+        infoEdificio.innerHTML += edificioHTML;
+      });
+    })
+}
