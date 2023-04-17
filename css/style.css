@@ -9338,7 +9338,8 @@ textarea.form-control-lg {
   font-family: 'Poppins', sans-serif; }
 
 #bodyLogin {
-  background-color: #f11f1f; }
+  background-color: #F9102F;
+  overflow: hidden; }
   #bodyLogin .containerLogo {
     max-width: 350px;
     min-height: 500px;
@@ -9379,7 +9380,7 @@ textarea.form-control-lg {
       box-shadow: none;
       width: 100%;
       height: 40px;
-      background-color: #ff0000;
+      background-color: #F9102F;
       color: #fff;
       border-radius: 25px;
       box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
