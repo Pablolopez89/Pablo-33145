@@ -38,24 +38,3 @@ input.addEventListener('input', function () {
     }
   });
 });
-
-
-function mostrarModal() {
-  const modal = document.getElementById("exampleModal1");
-  const infoEdificio = document.getElementById("info-edificio");
-  infoEdificio.innerHTML = "";
-
-  fetch('edificios.json')
-    .then(response => response.json())
-    .then(data => {
-      data.forEach(edificio => {
-        const edificioHTML = `
-          <div>
-            <h2>${edificio.nombre}</h2>
-            <p><strong>Dirección:</strong> ${edificio.direccion}</p>
-            <p><strong>Teléfono:</strong> ${edificio.telefono}</p>
-          </div>`;
-        infoEdificio.innerHTML += edificioHTML;
-      });
-    })
-}
