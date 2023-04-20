@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const userName = document.getElementById('user').value;
     const password = document.getElementById('pass').value;
 
-    if (userName === '123' && password === '123') {
+    if (userName === 'Pablo' && password === '123') {
       // redirigir al usuario a la pagina principal
       window.location.href = 'pages/index-pp.html';
     } else {
@@ -18,6 +18,26 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
   });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Obtener el botón de cerrar sesión
+  const btnCerrarSesion = document.querySelector('#btnCerrarSesion');
+  // Obtener el nombre de usuario almacenado en la sesión del usuario
+  const username = sessionStorage.getItem('userName');
+
+  // Agregar el evento click al botón de cerrar sesión
+  btnCerrarSesion.addEventListener('click', function () {
+    // Borrar la sesión del usuario y redirigir al usuario a la página de inicio de sesión
+    sessionStorage.clear();
+    window.location.href = '../index.html';
+  });
+
+  // Obtener el elemento de párrafo que muestra el nombre del usuario
+  const userNameText = document.getElementById('userNameText');
+
+  // Actualizar el texto del elemento de párrafo con el valor del nombre de usuario
+  userNameText.textContent = `${username}`;
 });
 
 
