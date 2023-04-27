@@ -1,7 +1,6 @@
 @import "./mixin";
 
 #bodyOllerosDc {
-
     #header {
         @include ajuste-padding;
         nav {
@@ -10,7 +9,6 @@
                     .navLogo {
                         width: 200px;
                         padding: 0px;
-
                     }
                 }
             }
@@ -20,14 +18,19 @@
         div {
             section {
                 @include ajuste-padding;
-
             }
             .filtro {
                 display: none;
             }
         }
+        div {
+            div {
+                #sectionBoton {
+                    min-height: 350px;
+                }
+            }
+        }
         #containerArea {
-
             padding-top: 2vh;
         }
         h5 {

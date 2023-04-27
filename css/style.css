@@ -9083,22 +9083,25 @@ textarea.form-control-lg {
   padding-left: 0px;
   padding-right: 0px; }
 
-#bodyMayo h5, #bodyMayo .h5 {
+#bodyMayo main div div #sectionBoton {
+  min-height: 350px; }
+
+#bodyMayo main h5, #bodyMayo main .h5 {
   padding-top: 2vh; }
 
-#footer {
+#bodyMayo #footer {
   background-color: #1e1f1e;
   width: 100%; }
-  #footer div #divFooter div a #imgFooter {
+  #bodyMayo #footer div #divFooter div a #imgFooter {
     width: 200px; }
-  #footer div #divFooter div p {
+  #bodyMayo #footer div #divFooter div p {
     padding-left: 2rem;
     font-size: 0.8rem; }
-  #footer div div #ulDelFooter {
+  #bodyMayo #footer div div #ulDelFooter {
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 0px; }
-    #footer div div #ulDelFooter li a {
+    #bodyMayo #footer div div #ulDelFooter li a {
       padding-left: 2rem;
       font-size: 0.8rem; }
 
@@ -9115,6 +9118,9 @@ textarea.form-control-lg {
 
 #bodyOllerosDc main div .filtro {
   display: none; }
+
+#bodyOllerosDc main div div #sectionBoton {
+  min-height: 350px; }
 
 #bodyOllerosDc main #containerArea {
   padding-top: 2vh; }

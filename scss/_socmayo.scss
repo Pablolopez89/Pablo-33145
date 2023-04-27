@@ -19,10 +19,15 @@
         div {
             section {
                 @include ajuste-padding;
-
             }
         }
-            
+        div {
+            div {
+                #sectionBoton {
+                    min-height: 350px;
+                }
+
+            }
         }
         h5 {
             padding-top: 2vh;
@@ -67,3 +72,4 @@
         }
 
     }
+}

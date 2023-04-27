@@ -1,3 +1,4 @@
+
 // Login
 document.addEventListener('DOMContentLoaded', function () {
   const btnIniciar = document.getElementById('btnIniciar');
@@ -5,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const userName = document.getElementById('user').value;
     const password = document.getElementById('pass').value;
 
-    if (userName === 'Pablo' && password === '123') {
+    if (userName === 'EXA63467' && password === '123') {
       // redirigir al usuario a la pagina principal
       window.location.href = 'pages/index-pp.html';
       sessionStorage.setItem('userName', userName);
@@ -21,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+
+// guarda el nombre de usuario en session storage 
 document.addEventListener('DOMContentLoaded', function () {
   // Obtener el botón de cerrar sesión
   const btnCerrarSesion = document.querySelector('#btnCerrarSesion');
@@ -33,7 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
   // Obtener el nombre de usuario almacenado en la sesión del usuario
   const username = sessionStorage.getItem('userName');
 
-
   // Obtener el elemento de párrafo que muestra el nombre del usuario
   const userNameText = document.getElementById('userNameText');
 
@@ -42,10 +44,12 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// Buscador/ Filtrador de edificios:
+
+// Buscador / Filtrador de edificios:
+document.addEventListener('DOMContentLoaded', function () {
 // Obtiene el elemento del input y todos los botones
 const input = document.getElementById('buscador');
-const botones = document.querySelectorAll('button[type="button"]');
+const botones = document.querySelectorAll('#button');
 
 // Agrega el evento input al input para filtrar los botones
 input.addEventListener('input', function () {
@@ -58,4 +62,5 @@ input.addEventListener('input', function () {
       boton.style.display = 'none';
     }
   });
+});
 });
