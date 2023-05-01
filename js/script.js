@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
 // guarda el nombre de usuario en session storage 
 document.addEventListener('DOMContentLoaded', function () {
   // Obtener el botón de cerrar sesión
@@ -43,24 +42,60 @@ document.addEventListener('DOMContentLoaded', function () {
   userNameText.textContent = `${username}`;
 });
 
-
-
-// Buscador / Filtrador de edificios:
+// Buscador / Filtrador de edificios pagina SOC Olleros Data
 document.addEventListener('DOMContentLoaded', function () {
-// Obtiene el elemento del input y todos los botones
-const input = document.getElementById('buscador');
-const botones = document.querySelectorAll('#button');
+  // Obtiene el elemento del input y todos los botones
+  const input = document.getElementById('buscador');
+  const botonesData = document.querySelectorAll('#botonData');
 
-// Agrega el evento input al input para filtrar los botones
-input.addEventListener('input', function () {
-  const filtro = this.value.toLowerCase(); // Obtiene el valor del input y lo convierte en minúsculas
-  botones.forEach(function (boton) {
-    const textoBoton = boton.textContent.toLowerCase(); // Obtiene el texto del botón y lo convierte en minúsculas
-    if (textoBoton.indexOf(filtro) !== -1) { // Si el texto del botón contiene el filtro, muestra el botón
-      boton.style.display = '';
-    } else { // De lo contrario, oculta el botón
-      boton.style.display = 'none';
-    }
+  // Agrega el evento input al input para filtrar los botones
+  input.addEventListener('input', function () {
+    const filtro = this.value.toLowerCase(); // Obtiene el valor del input y lo convierte en minúsculas
+    botonesData.forEach(function (boton) {
+      const textoBoton = boton.textContent.toLowerCase(); // Obtiene el texto del botón y lo convierte en minúsculas
+      if (textoBoton.indexOf(filtro) !== -1) { // Si el texto del botón contiene el filtro, muestra el botón
+        boton.style.display = '';
+      } else { // De lo contrario, oculta el botón
+        boton.style.display = 'none';
+      }
+    });
   });
 });
+
+// Buscador / Filtrador de edificios pagina SOC Olleros Mayo
+document.addEventListener('DOMContentLoaded', function () {
+
+  const input2 = document.getElementById('buscadorMayo');
+  const botonesMayo = document.querySelectorAll('#botonMayo');
+
+  input2.addEventListener('input', function () {
+    const filtro2 = this.value.toLowerCase();
+    botonesMayo.forEach(function (boton1) {
+      const textoBoton2 = boton1.textContent.toLowerCase();
+      if (textoBoton2.indexOf(filtro2) !== -1) {
+        boton1.style.display = '';
+      } else {
+        boton1.style.display = 'none';
+      }
+    });
+  });
 });
+
+
+  fetch("edificio.json")
+    .then(response => response.json())
+    .then(edificios => {
+      const divEdificios = document.getElementById("edificios");
+      edificios.forEach(edificio => {
+        const divEdificio = document.createElement("div");
+        divEdificio.innerHTML = `
+          <h2>${edificio.nombre}</h2>
+          <p>Dirección: ${edificio.direccion}</p>
+          <p>Teléfono: ${edificio.telefono}</p>
+          <a href="${edificio.ubicacion}" target="_blank">Ver en Google Maps</a>
+          <img src="${edificio.imagen}" alt="${edificio.nombre}">
+        `;
+        divEdificios.appendChild(divEdificio);
+      });
+    })
+    .catch(error => console.log(error));

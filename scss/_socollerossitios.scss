@@ -20,6 +20,11 @@
             section {
                 @include ajuste-padding;
             }
+            div {
+                .sectionBotones {
+                    min-height: 630px;
+                }
+            }
         }
 
         #containerArea {

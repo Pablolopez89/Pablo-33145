@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "nombre": "CAC AV DE MAYO",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "1234567890",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio1.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "CAC MORON",
+    "direccion": "Avenida X, Ciudad B",
+    "telefono": "0987654321",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "CAC MERLO",
+    "direccion": "Calle Z, Ciudad C",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio3.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "CAC MORENO",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "1234567890",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "CAC LOMAS DE ZAMORA",
+    "direccion": "Avenida X, Ciudad B",
+    "telefono": "0987654321",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio1.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "CAC RAMOS MEJIA",
+    "direccion": "Calle Z, Ciudad C",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio3.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "CAC LAFERRERE",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "8",
+    "nombre": "CAC FLORES",
+    "direccion": "Avenida X, Ciudad B",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio3.jpg"
+  },
+  {
+    "id": "9",
+    "nombre": "CAC OLIVOS",
+    "direccion": "Calle Z, Ciudad C",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio3.jpg"
+  },
+  {
+    "id": "10",
+    "nombre": "CAC ISIDRO CASANOVA",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "11",
+    "nombre": "CAC SAN ISIDRO",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "12",
+    "nombre": "CAC LANUS",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "13",
+    "nombre": "CAC MONTE GRANDE",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "14",
+    "nombre": "CAC POMPEYA",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "15",
+    "nombre": "CAC EZEIZA",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "16",
+    "nombre": "CAC BENAVIDEZ",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "17",
+    "nombre": "CAC ABASTO SHOPPING",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "18",
+    "nombre": "CAC ALTO PALERMO",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "19",
+    "nombre": "CAC SAN JUSTO",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "20",
+    "nombre": "CAC PILAR",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "21",
+    "nombre": "CAC SAN MARTIN",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "22",
+    "nombre": "CAC SAN MIGUEL",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "23",
+    "nombre": "CAC AVELLANEDA",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "24",
+    "nombre": "CAC LA PLATA",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  },
+  {
+    "id": "25",
+    "nombre": "CAC FLORIDA",
+    "direccion": "Calle 123, Ciudad A",
+    "telefono": "5555555555",
+    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
+    "imagen": "/assets/images/edificio2.jpg"
+  }
+]

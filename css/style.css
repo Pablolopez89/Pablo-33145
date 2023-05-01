@@ -9155,6 +9155,9 @@ textarea.form-control-lg {
   padding-left: 0px;
   padding-right: 0px; }
 
+#bodyOllerosSitios main div div .sectionBotones {
+  min-height: 630px; }
+
 #bodyOllerosSitios main #containerArea {
   padding-top: 2vh; }
 
