@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function () {
         boton3.classList.add('btn-warning');
         boton3.addEventListener("click", function() {
           const edificioId = boton3.dataset.edificioId;
-          const url = `../js/edificios/${edificioId}.json`;
+          const url = `../js/edificios/json`;
           const tarjetaEdificio = document.querySelector(`[data-edificio-id="${edificioId}"]`); // Buscamos la tarjeta existente correspondiente al edificio
           fetch(url)
             .then(response => response.json())
