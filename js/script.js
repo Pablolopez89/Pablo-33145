@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-  fetch("edificio.json")
+  fetch("../js/edificios.json")
     .then(response => response.json())
     .then(edificios => {
       const divEdificios = document.getElementById("edificios");
@@ -99,3 +99,24 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     })
     .catch(error => console.log(error));
+
+    // Buscador / Filtrador de edificios pagina SOC Olleros Mayo
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const input3 = document.getElementById('buscadorOllerosSitios');
+      const botonesOllerosSitios = document.querySelectorAll('#botonOllerosSitios');
+    
+      input3.addEventListener('input', function () {
+        const filtro3 = this.value.toLowerCase();
+        botonesOllerosSitios.forEach(function (boton3) {
+          const textoBoton3 = boton3.textContent.toLowerCase();
+          if (textoBoton3.indexOf(filtro3) !== -1) {
+            boton3.classList.add('btn-warning');
+          } else {
+            boton3.classList.remove('btn-warning');
+          }
+        });
+      });
+    });
+    
+  
