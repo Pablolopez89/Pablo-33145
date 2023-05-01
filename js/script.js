@@ -82,41 +82,55 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-  fetch("../js/edificios.json")
-    .then(response => response.json())
-    .then(edificios => {
-      const divEdificios = document.getElementById("edificios");
-      edificios.forEach(edificio => {
-        const divEdificio = document.createElement("div");
-        divEdificio.innerHTML = `
-          <h2>${edificio.nombre}</h2>
-          <p>Dirección: ${edificio.direccion}</p>
-          <p>Teléfono: ${edificio.telefono}</p>
-          <a href="${edificio.ubicacion}" target="_blank">Ver en Google Maps</a>
-          <img src="${edificio.imagen}" alt="${edificio.nombre}">
-        `;
-        divEdificios.appendChild(divEdificio);
-      });
-    })
-    .catch(error => console.log(error));
+// fetch("../js/edificios.json")
+//   .then(response => response.json())
+//   .then(edificios => {
+//     const divEdificios = document.getElementById("edificios");
+//     edificios.forEach(edificio => {
+//       const divEdificio = document.createElement("div");
+//       divEdificio.setAttribute("data-edificio-id", edificio.id); // Agregamos un atributo de datos con el id del edificio
+//       divEdificio.innerHTML = `
+//         <h2>${edificio.nombre}</h2>
+//         <p>Dirección: ${edificio.direccion}</p>
+//         <p>Teléfono: ${edificio.telefono}</p>
+//         <a href="${edificio.ubicacion}" target="_blank">Ver en Google Maps</a>
+//         <img src="${edificio.imagen}" alt="${edificio.nombre}">
+//       `;
+//       divEdificios.appendChild(divEdificio);
+//     });
+//   })
+//   .catch(error => console.log(error));
 
-    // Buscador / Filtrador de edificios pagina SOC Olleros Mayo
-    document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
 
-      const input3 = document.getElementById('buscadorOllerosSitios');
-      const botonesOllerosSitios = document.querySelectorAll('#botonOllerosSitios');
-    
-      input3.addEventListener('input', function () {
-        const filtro3 = this.value.toLowerCase();
-        botonesOllerosSitios.forEach(function (boton3) {
-          const textoBoton3 = boton3.textContent.toLowerCase();
-          if (textoBoton3.indexOf(filtro3) !== -1) {
-            boton3.classList.add('btn-warning');
-          } else {
-            boton3.classList.remove('btn-warning');
-          }
+  const input3 = document.getElementById('buscadorOllerosSitios');
+  const botonesOllerosSitios = document.querySelectorAll('#botonOllerosSitios');
+
+  input3.addEventListener('input', function () {
+    const filtro3 = this.value.toLowerCase();
+    botonesOllerosSitios.forEach(function (boton3) {
+      const textoBoton3 = boton3.textContent.toLowerCase();
+      if (textoBoton3.indexOf(filtro3) !== -1) {
+        boton3.classList.add('btn-warning');
+        boton3.addEventListener("click", function() {
+          const edificioId = boton3.dataset.edificioId;
+          const url = `../js/edificios/${edificioId}.json`;
+          const tarjetaEdificio = document.querySelector(`[data-edificio-id="${edificioId}"]`); // Buscamos la tarjeta existente correspondiente al edificio
+          fetch(url)
+            .then(response => response.json())
+            .then(edificio => {
+              tarjetaEdificio.querySelector("h2").textContent = edificio.nombre; // Actualizamos el contenido de la tarjeta
+              tarjetaEdificio.querySelector("p:nth-of-type(1)").textContent = `Dirección: ${edificio.direccion}`;
+              tarjetaEdificio.querySelector("p:nth-of-type(2)").textContent = `Teléfono: ${edificio.telefono}`;
+              tarjetaEdificio.querySelector("a").href = edificio.ubicacion;
+              tarjetaEdificio.querySelector("img").src = edificio.imagen;
+              tarjetaEdificio.querySelector("img").alt = edificio.nombre;
+            })
+            .catch(error => console.log(error));
         });
-      });
+      } else {
+        boton3.classList.remove('btn-warning');
+      }
     });
-    
-  
+  });
+});
