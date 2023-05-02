@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
   userNameText.textContent = `${username}`;
 });
 
-// Buscador / Filtrador de edificios pagina SOC Olleros Data
+// Filtro de edificios pagina SOC Olleros Data
 document.addEventListener('DOMContentLoaded', function () {
   // Obtiene el elemento del input y todos los botones
   const input = document.getElementById('buscador');
@@ -62,17 +62,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// Buscador / Filtrador de edificios pagina SOC Olleros Mayo
+//Filtro de edificios pagina SOC Mayo
 document.addEventListener('DOMContentLoaded', function () {
 
-  const input2 = document.getElementById('buscadorMayo');
+  const input1 = document.getElementById('buscadorMayo');
   const botonesMayo = document.querySelectorAll('#botonMayo');
 
-  input2.addEventListener('input', function () {
-    const filtro2 = this.value.toLowerCase();
+  input1.addEventListener('input', function () {
+    const filtro1 = this.value.toLowerCase();
     botonesMayo.forEach(function (boton1) {
-      const textoBoton2 = boton1.textContent.toLowerCase();
-      if (textoBoton2.indexOf(filtro2) !== -1) {
+      const textoBoton1 = boton1.textContent.toLowerCase();
+      if (textoBoton1.indexOf(filtro1) !== -1) {
         boton1.style.display = '';
       } else {
         boton1.style.display = 'none';
@@ -81,55 +81,63 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-
-// fetch("../js/edificios.json")
-//   .then(response => response.json())
-//   .then(edificios => {
-//     const divEdificios = document.getElementById("edificios");
-//     edificios.forEach(edificio => {
-//       const divEdificio = document.createElement("div");
-//       divEdificio.setAttribute("data-edificio-id", edificio.id); // Agregamos un atributo de datos con el id del edificio
-//       divEdificio.innerHTML = `
-//         <h2>${edificio.nombre}</h2>
-//         <p>Dirección: ${edificio.direccion}</p>
-//         <p>Teléfono: ${edificio.telefono}</p>
-//         <a href="${edificio.ubicacion}" target="_blank">Ver en Google Maps</a>
-//         <img src="${edificio.imagen}" alt="${edificio.nombre}">
-//       `;
-//       divEdificios.appendChild(divEdificio);
-//     });
-//   })
-//   .catch(error => console.log(error));
+// Filtro de los edificios  SOC Olleros Sitios (esta ligado con el FETCH)
+const tarjetasEdificios = document.getElementById('tarjetasEdificios');
+const input2 = document.getElementById('buscadorOllerosSitios');
+const botonesOllerosSitios = document.querySelectorAll('#botonOllerosSitios');
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  const input3 = document.getElementById('buscadorOllerosSitios');
-  const botonesOllerosSitios = document.querySelectorAll('#botonOllerosSitios');
-
-  input3.addEventListener('input', function () {
-    const filtro3 = this.value.toLowerCase();
-    botonesOllerosSitios.forEach(function (boton3) {
-      const textoBoton3 = boton3.textContent.toLowerCase();
-      if (textoBoton3.indexOf(filtro3) !== -1) {
-        boton3.classList.add('btn-warning');
-        boton3.addEventListener("click", function() {
-          const edificioId = boton3.dataset.edificioId;
-          const url = `../js/edificios/json`;
-          const tarjetaEdificio = document.querySelector(`[data-edificio-id="${edificioId}"]`); // Buscamos la tarjeta existente correspondiente al edificio
-          fetch(url)
-            .then(response => response.json())
-            .then(edificio => {
-              tarjetaEdificio.querySelector("h2").textContent = edificio.nombre; // Actualizamos el contenido de la tarjeta
-              tarjetaEdificio.querySelector("p:nth-of-type(1)").textContent = `Dirección: ${edificio.direccion}`;
-              tarjetaEdificio.querySelector("p:nth-of-type(2)").textContent = `Teléfono: ${edificio.telefono}`;
-              tarjetaEdificio.querySelector("a").href = edificio.ubicacion;
-              tarjetaEdificio.querySelector("img").src = edificio.imagen;
-              tarjetaEdificio.querySelector("img").alt = edificio.nombre;
-            })
-            .catch(error => console.log(error));
-        });
+  input2.addEventListener('input', function () {
+    const filtro2 = this.value.toLowerCase();
+    botonesOllerosSitios.forEach(function (boton2) {
+      const textoBoton2 = boton2.textContent.toLowerCase();
+      if (textoBoton2.indexOf(filtro2) !== -1) {
+        
+        boton2.classList.add('btn-outline-warning'); 
+        boton2.classList.remove('btn-warning'); 
       } else {
-        boton3.classList.remove('btn-warning');
+        
+        boton2.classList.remove('btn-outline-warning'); 
+        boton2.classList.add('btn-warning'); 
+      }
+    });
+    if (filtro2 === '') {
+      botonesOllerosSitios.forEach(function (boton2) {
+        boton2.classList.remove('btn-outline-warning'); 
+        boton2.classList.add('btn-warning'); 
+      });
+    }
+  });
+});
+
+// FETCH
+document.addEventListener('DOMContentLoaded', function () {
+
+  botonesOllerosSitios.forEach(boton3 => {
+    boton3.addEventListener('click', async function () {
+      const edificioId = boton3.dataset.edificioId;
+      const url = `../js/edificios.json`;
+
+      try {
+        const response = await fetch(url);
+        const edificios = await response.json();
+        const edificio = edificios.find(edificio => edificio.id === edificioId);
+
+        const tarjetaEdificio = document.createElement('div');
+        tarjetaEdificio.setAttribute('data-edificio-id', edificioId);
+        tarjetaEdificio.innerHTML = `
+          <h2>${edificio.nombre}</h2>
+          <p>Dirección: ${edificio.direccion}</p>
+          <p>Teléfono: ${edificio.telefono}</p>
+          <a class="mx-2" href="${edificio.ubicacion}" target="_blank">Ver en Google Maps</a>
+          <img src="${edificio.imagen}" alt="${edificio.nombre}">
+        `;
+
+        tarjetasEdificios.innerHTML = '';
+        tarjetasEdificios.appendChild(tarjetaEdificio);
+      } catch (error) {
+        console.log(error);
       }
     });
   });
