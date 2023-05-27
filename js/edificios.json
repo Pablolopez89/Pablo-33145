@@ -1,11 +1,18 @@
 [
   {
     "id": "1",
-    "nombre": "CAC AV DE MAYO",
-    "direccion": "Calle 123, Ciudad A",
-    "telefono": "1234567890",
-    "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
-    "imagen": "/assets/images/edificio1.jpg"
+    "nombre": "CENTRAL OFFICE ROSARIO",
+    "direccion":"27 de Febrero 5301 - Rosario - Santa Fe",
+    "ubicacion": "https://goo.gl/maps/rQuj6dbA6JvbLrR38",
+    "telefono":"37989",
+    "celular": "3415465662",
+    "referente": "Juan Cortarello",
+    "cellID": "TS1001",
+    "monitoreo1": "MI001",
+    "monitoreo2": "ER054",
+    "vigilador1": "Orellano Guillermo",
+    "vigilador2": "Enrique Julio",
+    "vigilador3": "Mermet Marcelo"
   },
   {
     "id": "2",
@@ -13,7 +20,8 @@
     "direccion": "Avenida X, Ciudad B",
     "telefono": "0987654321",
     "ubicacion": "https://goo.gl/maps/bSnrbcxtRQc25BcY8",
-    "imagen": "/assets/images/edificio2.jpg"
+    "referente":"Juan Cortarello",
+    "imagen":"/assets/images/edificio1.jpg"
   },
   {
     "id": "3",

@@ -127,13 +127,25 @@ document.addEventListener('DOMContentLoaded', function () {
         const tarjetaEdificio = document.createElement('div');
         tarjetaEdificio.setAttribute('data-edificio-id', edificioId);
         tarjetaEdificio.innerHTML = `
-          <h2>${edificio.nombre}</h2>
-          <p>Dirección: ${edificio.direccion}</p>
-          <p>Teléfono: ${edificio.telefono}</p>
-          <a class="mx-2" href="${edificio.ubicacion}" target="_blank">Ver en Google Maps</a>
-          <img src="${edificio.imagen}" alt="${edificio.nombre}">
+          <h2><strong>${edificio.nombre}</strong></h2>
+          <hr>
+          <p><b>Dirección:</b> ${edificio.direccion}</p>
+          <p><b>Ubicación:</b><a href="${edificio.ubicacion}" target="_blank"> Ver en Google Maps</a></p>
+          <p><b>Teléfono int:</b> ${edificio.telefono}</p>
+          <p><strong>Celular guardia:</strong> ${edificio.celular}  - <a class="bi bi-whatsapp" href="https://wa.me/+5493415465662" target="_blank"> Whats App</a></p>
+          <p><b>Referente:</b> ${edificio.referente} - <a class="bi bi-envelope-fill" href="mailto:juan.cortarello@claro.com.ar?subject=Sitio TS1001"> Mail  /   </a><a class="bi-microsoft-teams" href="sip:juan.cortarello@claro.com.ar"> Teams </a></p>
+          <p><b>Cell ID:</b> ${edificio.cellID}</p>
+          <hr>
+          <h5>SITIOS QUE MONITOREA</h5>
+          <div class="d-flex justify-content-evenly">
+          <p><b>Cell ID:</b><a href="x" class="bi bi-geo-alt-fill" target="_blank">${edificio.monitoreo1}</a></p>
+          <p><b>Cell ID:</b><a class="bi bi-geo-alt-fill" href="x" target="_blank">${edificio.monitoreo2}</a></p>
+          </div>          
+          <hr>
+          <p><b>Vigilador Diurno:</b> ${edificio.vigilador1} <a class="bi bi-envelope-fill" href="mailto:guillermo.orellano@claro.com.ar?subject=Sitio TS1001"> Mail / </a><a class="bi-microsoft-teams" href="sip:guillermo.orellano@claro.com.ar"> Teams</a></p>
+          <p><b>Vigilador Nocturno:</b> ${edificio.vigilador2} <a class="bi bi-envelope-fill" href="mailto:julio.enrique@claro.com.ar?subject=Sitio TS1001"> Mail / </a><a class="bi-microsoft-teams" href="sip:julio.enrique@claro.com.ar"> Teams </a></p>
+          <p><b>Vigilador Franquero:</b> ${edificio.vigilador3}</p>
         `;
-
         tarjetasEdificios.innerHTML = '';
         tarjetasEdificios.appendChild(tarjetaEdificio);
       } catch (error) {
